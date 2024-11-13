@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListChartComponent } from './list-chart.component';
+import { InputDateComponent } from './input-date.component';
 
-describe('ListChartComponent', () => {
-  let component: ListChartComponent;
-  let fixture: ComponentFixture<ListChartComponent>;
+describe('InputDateComponent', () => {
+  let component: InputDateComponent;
+  let fixture: ComponentFixture<InputDateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ListChartComponent]
+      imports: [InputDateComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ListChartComponent);
+    fixture = TestBed.createComponent(InputDateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
