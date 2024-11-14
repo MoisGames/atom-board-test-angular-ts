@@ -24,7 +24,7 @@ export class LineChartComponent {
   maxDate: string = "2024-11-12" // Максимальная дата
   currentRange: number = 1 // Выбор диапазона
   initialDate: string = '2024-10-01' // Дефолтная дата при загрузке
-  receivedDate: string = '' // Полученная дата
+  receivedDate: string | null = '' // Полученная дата
   currentLabel: Array<string> = []
   currentData: Array<string> = []
 
@@ -38,10 +38,7 @@ export class LineChartComponent {
   }
 
   public getFirstData ():void { // Рассчитать данные для графика в первый раз
-    // const newLabels: Array<string> = []
-    // const newData: Array<string> = []
-
-    if (this.receivedDate === '') {
+    if (localStorage.getItem('lineChartDate') === null) {
       this.receivedDate = this.initialDate
 
       const filteredArray = this.dataServices.filter(el => {
@@ -56,18 +53,19 @@ export class LineChartComponent {
           return el.dateTime
     })
      
-    } else if (this.receivedDate) {
+    } else if (localStorage.getItem('lineChartDate')) {
+      this.receivedDate = localStorage.getItem('lineChartDate')
         const filteredArray = this.dataServices.filter(el => {
           return this.formattedService.formattedDate(el.dateTime) === this.receivedDate
         })
 
         this.lineChartData.datasets[0].data = filteredArray.map(el => {
           return el.Temp
-      })
-  
-        this.lineChartData.labels = filteredArray.map(el => {
-            return el.dateTime
-      })
+        })
+    
+          this.lineChartData.labels = filteredArray.map(el => {
+              return el.dateTime
+        })
     }
   }
 
@@ -94,18 +92,6 @@ export class LineChartComponent {
       }
     }
   };
-
-  public pushTemp():void { 
-    const newLabels: Array<string> = [];
-    const newDataArr: Array<number> = [];
-
-    for (let i = 0; i < this.dataServices.length && i < this.currentRange; i++) {
-        newLabels.push(this.dataServices[i].dateTime);
-        newDataArr.push(this.dataServices[i].Temp);
-    }
-    this.lineChartData.labels = [...newLabels]; 
-    this.lineChartData.datasets[0].data = [...newDataArr];
-  }
 
   setCurrentRange(data:number) { // Получаем диапазон показа
       this.currentRange = data
