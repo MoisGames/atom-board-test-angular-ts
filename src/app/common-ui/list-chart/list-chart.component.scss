@@ -1,0 +1,15 @@
+@import '../../../variables';
+
+.list-chart__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-around;
+    background-color: $color-grey-background;
+}
+
+.line-chart__item {
+    margin: 75px 5px;
+}

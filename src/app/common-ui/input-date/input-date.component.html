@@ -1,1 +1,15 @@
-<p>input-date works!</p>
+<div class="input-date__wrapper">
+    <input
+        #inputDate
+        type="date" 
+        min={{minValue}} 
+        max={{maxValue}}
+        (change)="setCurrentDate(inputDate.valueAsDate)"
+        >
+    <div class="input-date__change_wrapper">
+        <span>Показывать за:</span>
+        <button (click)="setCurrentRange(1)">День</button>
+        <button (click)="setCurrentRange(7)">Неделю</button>
+        <button (click)="setCurrentRange(30)">Месяц</button>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+export const secPerDay = 86400000

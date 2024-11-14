@@ -1,4 +1,26 @@
+@import '../../../../variables';
+
 .line-chart__wrapper {
     display: flex;
-    width: 45vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50px;
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    @media screen and (max-width: 900px) {
+        width: 85%;
+    }
+}
+
+.line-chart__wrapper:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.line-chart__temp {
+    background-color: $color-grey-background-chart;
 }

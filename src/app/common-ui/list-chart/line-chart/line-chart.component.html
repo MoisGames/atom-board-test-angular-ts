@@ -1,11 +1,18 @@
 <div class="line-chart__wrapper">
-    <canvas baseChart width="400" height="400"
+    <canvas class="line-chart__temp" baseChart width="400" height="400"
         [type]="'line'"
         [datasets]="lineChartData.datasets"
         [labels]="lineChartData.labels"
+        [options]="lineChartOptions"
         >
     </canvas>
     <div>
         <button (click)="pushTemp()">Show temp</button>
+        <app-input-date 
+            [minValue]="minDate" 
+            [maxValue]="maxDate"
+            (currentRangeEvent)="setCurrentRange($event)" 
+            (currentDateEvent)="setCurrentDate($event)"
+            />
     </div>
 </div>
