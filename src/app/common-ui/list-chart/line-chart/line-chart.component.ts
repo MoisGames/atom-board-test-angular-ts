@@ -6,7 +6,7 @@ import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
 import { InputDateComponent } from "../../input-date/input-date.component";
 import dateFormat from 'dateformat';
 import { secPerDay } from '../../../utils/const';
-import { draw,generate } from 'patternomaly';
+import { draw } from 'patternomaly';
 @Component({
   selector: 'app-line-chart',
   standalone: true,
