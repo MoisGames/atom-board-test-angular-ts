@@ -6,7 +6,7 @@ import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
 import { InputDateComponent } from "../../input-date/input-date.component";
 import dateFormat from 'dateformat';
 import { secPerDay } from '../../../utils/const';
-
+import { draw,generate } from 'patternomaly';
 @Component({
   selector: 'app-line-chart',
   standalone: true,
@@ -53,8 +53,7 @@ export class LineChartComponent {
           fill: true,
           tension: 0.5,
           borderColor: 'black',
-          backgroundColor: ['#FF0000','#0000ff'],
-          
+          backgroundColor: [ draw('line-vertical', '#1f77b4')],
         },
     ],
   };
