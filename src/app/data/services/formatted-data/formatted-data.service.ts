@@ -15,5 +15,6 @@ export class FormattedDataService {
     const date = new Date(+year, +month - 1, +day);
     // Форматируем новую дату в нужный формат "гггг-месяц-дд"
     const formattedDate = dateFormat(date, "yyyy-mm-dd");
+    return formattedDate
   }
 }

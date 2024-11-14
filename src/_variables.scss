@@ -1,8 +1,34 @@
 $color-grey-background-chart: #343a41;
 $color-grey-background: #262a2d;
 
-%increase-shadow-block {
+%increase-shadow-block-default {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+%increase-shadow-block-hover {
     transform: scale(1.2);
     box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
     transition: box-shadow 0.5s, transform 0.5s;
+}
+
+%center-flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+%flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
