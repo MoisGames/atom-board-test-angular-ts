@@ -1,0 +1,13 @@
+@import '../../../../variables';
+
+.pie-chart__wrapper {
+    @extend %increase-shadow-block-default;
+    @extend %center-flex-column;
+    padding: 30px;
+    border-radius: 50px;
+    padding: 20px;
+    width: 30vw;
+    &:hover {
+        @extend %increase-shadow-block-hover;
+    }
+}

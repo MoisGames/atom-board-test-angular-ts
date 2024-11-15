@@ -1,1 +1,10 @@
-<p>pie-chart works!</p>
+<article class="pie-chart__wrapper">
+    <canvas class="pie-chart__que" baseChart width="400" height="400"
+        [type]="'pie'"
+        [datasets]="pieChartData.datasets"
+        [labels]="pieChartData.labels"
+        [options]="pieChartOptions"
+    >
+    </canvas>
+    <app-input-date />
+</article>

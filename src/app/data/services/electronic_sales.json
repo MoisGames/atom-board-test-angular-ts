@@ -1,0 +1,2924 @@
+{
+  "sales_data": [
+    {
+      "date": "2023-01-01",
+      "Vikidokart": 72,
+      "Telefony": 4,
+      "Televizory": 26,
+      "Noutbuki": 28,
+      "Klaviatury": 62
+    },
+    {
+      "date": "2023-01-02",
+      "Vikidokart": 74,
+      "Telefony": 87,
+      "Televizory": 63,
+      "Noutbuki": 47,
+      "Klaviatury": 3
+    },
+    {
+      "date": "2023-01-03",
+      "Vikidokart": 11,
+      "Telefony": 25,
+      "Televizory": 85,
+      "Noutbuki": 24,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-01-04",
+      "Vikidokart": 77,
+      "Telefony": 62,
+      "Televizory": 98,
+      "Noutbuki": 44,
+      "Klaviatury": 81
+    },
+    {
+      "date": "2023-01-05",
+      "Vikidokart": 46,
+      "Telefony": 73,
+      "Televizory": 12,
+      "Noutbuki": 74,
+      "Klaviatury": 89
+    },
+    {
+      "date": "2023-01-06",
+      "Vikidokart": 81,
+      "Telefony": 20,
+      "Televizory": 95,
+      "Noutbuki": 36,
+      "Klaviatury": 84
+    },
+    {
+      "date": "2023-01-07",
+      "Vikidokart": 18,
+      "Telefony": 10,
+      "Televizory": 99,
+      "Noutbuki": 92,
+      "Klaviatury": 37
+    },
+    {
+      "date": "2023-01-08",
+      "Vikidokart": 59,
+      "Telefony": 77,
+      "Televizory": 33,
+      "Noutbuki": 21,
+      "Klaviatury": 40
+    },
+    {
+      "date": "2023-01-09",
+      "Vikidokart": 88,
+      "Telefony": 43,
+      "Televizory": 26,
+      "Noutbuki": 25,
+      "Klaviatury": 86
+    },
+    {
+      "date": "2023-01-10",
+      "Vikidokart": 8,
+      "Telefony": 49,
+      "Televizory": 98,
+      "Noutbuki": 32,
+      "Klaviatury": 94
+    },
+    {
+      "date": "2023-01-11",
+      "Vikidokart": 96,
+      "Telefony": 49,
+      "Televizory": 41,
+      "Noutbuki": 78,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-01-12",
+      "Vikidokart": 29,
+      "Telefony": 86,
+      "Televizory": 5,
+      "Noutbuki": 23,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-01-13",
+      "Vikidokart": 7,
+      "Telefony": 49,
+      "Televizory": 90,
+      "Noutbuki": 50,
+      "Klaviatury": 92
+    },
+    {
+      "date": "2023-01-14",
+      "Vikidokart": 59,
+      "Telefony": 72,
+      "Televizory": 11,
+      "Noutbuki": 46,
+      "Klaviatury": 2
+    },
+    {
+      "date": "2023-01-15",
+      "Vikidokart": 23,
+      "Telefony": 4,
+      "Televizory": 77,
+      "Noutbuki": 92,
+      "Klaviatury": 9
+    },
+    {
+      "date": "2023-01-16",
+      "Vikidokart": 60,
+      "Telefony": 15,
+      "Televizory": 88,
+      "Noutbuki": 82,
+      "Klaviatury": 99
+    },
+    {
+      "date": "2023-01-17",
+      "Vikidokart": 63,
+      "Telefony": 92,
+      "Televizory": 89,
+      "Noutbuki": 21,
+      "Klaviatury": 90
+    },
+    {
+      "date": "2023-01-18",
+      "Vikidokart": 87,
+      "Telefony": 49,
+      "Televizory": 82,
+      "Noutbuki": 64,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-01-19",
+      "Vikidokart": 88,
+      "Telefony": 91,
+      "Televizory": 10,
+      "Noutbuki": 6,
+      "Klaviatury": 83
+    },
+    {
+      "date": "2023-01-20",
+      "Vikidokart": 19,
+      "Telefony": 38,
+      "Televizory": 52,
+      "Noutbuki": 43,
+      "Klaviatury": 59
+    },
+    {
+      "date": "2023-01-21",
+      "Vikidokart": 27,
+      "Telefony": 71,
+      "Televizory": 96,
+      "Noutbuki": 65,
+      "Klaviatury": 53
+    },
+    {
+      "date": "2023-01-22",
+      "Vikidokart": 82,
+      "Telefony": 21,
+      "Televizory": 50,
+      "Noutbuki": 39,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-01-23",
+      "Vikidokart": 41,
+      "Telefony": 18,
+      "Televizory": 11,
+      "Noutbuki": 63,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-01-24",
+      "Vikidokart": 9,
+      "Telefony": 68,
+      "Televizory": 45,
+      "Noutbuki": 54,
+      "Klaviatury": 59
+    },
+    {
+      "date": "2023-01-25",
+      "Vikidokart": 84,
+      "Telefony": 2,
+      "Televizory": 41,
+      "Noutbuki": 63,
+      "Klaviatury": 83
+    },
+    {
+      "date": "2023-01-26",
+      "Vikidokart": 28,
+      "Telefony": 17,
+      "Televizory": 37,
+      "Noutbuki": 24,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-01-27",
+      "Vikidokart": 38,
+      "Telefony": 92,
+      "Televizory": 54,
+      "Noutbuki": 69,
+      "Klaviatury": 78
+    },
+    {
+      "date": "2023-01-28",
+      "Vikidokart": 91,
+      "Telefony": 43,
+      "Televizory": 91,
+      "Noutbuki": 90,
+      "Klaviatury": 73
+    },
+    {
+      "date": "2023-01-29",
+      "Vikidokart": 6,
+      "Telefony": 60,
+      "Televizory": 80,
+      "Noutbuki": 30,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-01-30",
+      "Vikidokart": 55,
+      "Telefony": 77,
+      "Televizory": 42,
+      "Noutbuki": 29,
+      "Klaviatury": 55
+    },
+    {
+      "date": "2023-01-31",
+      "Vikidokart": 78,
+      "Telefony": 67,
+      "Televizory": 63,
+      "Noutbuki": 3,
+      "Klaviatury": 1
+    },
+    {
+      "date": "2023-02-01",
+      "Vikidokart": 19,
+      "Telefony": 73,
+      "Televizory": 96,
+      "Noutbuki": 95,
+      "Klaviatury": 11
+    },
+    {
+      "date": "2023-02-02",
+      "Vikidokart": 73,
+      "Telefony": 94,
+      "Televizory": 64,
+      "Noutbuki": 42,
+      "Klaviatury": 69
+    },
+    {
+      "date": "2023-02-03",
+      "Vikidokart": 34,
+      "Telefony": 22,
+      "Televizory": 66,
+      "Noutbuki": 51,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-02-04",
+      "Vikidokart": 81,
+      "Telefony": 24,
+      "Televizory": 26,
+      "Noutbuki": 100,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-02-05",
+      "Vikidokart": 96,
+      "Telefony": 65,
+      "Televizory": 60,
+      "Noutbuki": 19,
+      "Klaviatury": 82
+    },
+    {
+      "date": "2023-02-06",
+      "Vikidokart": 5,
+      "Telefony": 76,
+      "Televizory": 48,
+      "Noutbuki": 52,
+      "Klaviatury": 98
+    },
+    {
+      "date": "2023-02-07",
+      "Vikidokart": 91,
+      "Telefony": 5,
+      "Televizory": 73,
+      "Noutbuki": 10,
+      "Klaviatury": 84
+    },
+    {
+      "date": "2023-02-08",
+      "Vikidokart": 99,
+      "Telefony": 28,
+      "Televizory": 9,
+      "Noutbuki": 8,
+      "Klaviatury": 4
+    },
+    {
+      "date": "2023-02-09",
+      "Vikidokart": 1,
+      "Telefony": 78,
+      "Televizory": 82,
+      "Noutbuki": 66,
+      "Klaviatury": 21
+    },
+    {
+      "date": "2023-02-10",
+      "Vikidokart": 72,
+      "Telefony": 63,
+      "Televizory": 36,
+      "Noutbuki": 99,
+      "Klaviatury": 58
+    },
+    {
+      "date": "2023-02-11",
+      "Vikidokart": 53,
+      "Telefony": 37,
+      "Televizory": 8,
+      "Noutbuki": 84,
+      "Klaviatury": 71
+    },
+    {
+      "date": "2023-02-12",
+      "Vikidokart": 90,
+      "Telefony": 59,
+      "Televizory": 28,
+      "Noutbuki": 25,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-02-13",
+      "Vikidokart": 40,
+      "Telefony": 15,
+      "Televizory": 99,
+      "Noutbuki": 28,
+      "Klaviatury": 98
+    },
+    {
+      "date": "2023-02-14",
+      "Vikidokart": 35,
+      "Telefony": 8,
+      "Televizory": 63,
+      "Noutbuki": 45,
+      "Klaviatury": 42
+    },
+    {
+      "date": "2023-02-15",
+      "Vikidokart": 30,
+      "Telefony": 8,
+      "Televizory": 81,
+      "Noutbuki": 91,
+      "Klaviatury": 13
+    },
+    {
+      "date": "2023-02-16",
+      "Vikidokart": 73,
+      "Telefony": 53,
+      "Televizory": 65,
+      "Noutbuki": 34,
+      "Klaviatury": 32
+    },
+    {
+      "date": "2023-02-17",
+      "Vikidokart": 78,
+      "Telefony": 74,
+      "Televizory": 56,
+      "Noutbuki": 11,
+      "Klaviatury": 51
+    },
+    {
+      "date": "2023-02-18",
+      "Vikidokart": 10,
+      "Telefony": 69,
+      "Televizory": 4,
+      "Noutbuki": 35,
+      "Klaviatury": 11
+    },
+    {
+      "date": "2023-02-19",
+      "Vikidokart": 14,
+      "Telefony": 78,
+      "Televizory": 81,
+      "Noutbuki": 79,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-02-20",
+      "Vikidokart": 36,
+      "Telefony": 4,
+      "Televizory": 3,
+      "Noutbuki": 73,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-02-21",
+      "Vikidokart": 9,
+      "Telefony": 21,
+      "Televizory": 80,
+      "Noutbuki": 63,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-02-22",
+      "Vikidokart": 11,
+      "Telefony": 33,
+      "Televizory": 49,
+      "Noutbuki": 71,
+      "Klaviatury": 26
+    },
+    {
+      "date": "2023-02-23",
+      "Vikidokart": 92,
+      "Telefony": 3,
+      "Televizory": 88,
+      "Noutbuki": 50,
+      "Klaviatury": 74
+    },
+    {
+      "date": "2023-02-24",
+      "Vikidokart": 90,
+      "Telefony": 21,
+      "Televizory": 28,
+      "Noutbuki": 45,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-02-25",
+      "Vikidokart": 38,
+      "Telefony": 37,
+      "Televizory": 28,
+      "Noutbuki": 10,
+      "Klaviatury": 74
+    },
+    {
+      "date": "2023-02-26",
+      "Vikidokart": 75,
+      "Telefony": 89,
+      "Televizory": 12,
+      "Noutbuki": 87,
+      "Klaviatury": 47
+    },
+    {
+      "date": "2023-02-27",
+      "Vikidokart": 94,
+      "Telefony": 89,
+      "Televizory": 44,
+      "Noutbuki": 60,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-02-28",
+      "Vikidokart": 44,
+      "Telefony": 48,
+      "Televizory": 8,
+      "Noutbuki": 26,
+      "Klaviatury": 18
+    },
+    {
+      "date": "2023-03-01",
+      "Vikidokart": 89,
+      "Telefony": 96,
+      "Televizory": 17,
+      "Noutbuki": 48,
+      "Klaviatury": 74
+    },
+    {
+      "date": "2023-03-02",
+      "Vikidokart": 23,
+      "Telefony": 20,
+      "Televizory": 37,
+      "Noutbuki": 27,
+      "Klaviatury": 38
+    },
+    {
+      "date": "2023-03-03",
+      "Vikidokart": 78,
+      "Telefony": 80,
+      "Televizory": 9,
+      "Noutbuki": 20,
+      "Klaviatury": 39
+    },
+    {
+      "date": "2023-03-04",
+      "Vikidokart": 52,
+      "Telefony": 62,
+      "Televizory": 40,
+      "Noutbuki": 84,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-03-05",
+      "Vikidokart": 95,
+      "Telefony": 12,
+      "Televizory": 42,
+      "Noutbuki": 27,
+      "Klaviatury": 93
+    },
+    {
+      "date": "2023-03-06",
+      "Vikidokart": 49,
+      "Telefony": 28,
+      "Televizory": 49,
+      "Noutbuki": 99,
+      "Klaviatury": 5
+    },
+    {
+      "date": "2023-03-07",
+      "Vikidokart": 9,
+      "Telefony": 66,
+      "Televizory": 46,
+      "Noutbuki": 15,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-03-08",
+      "Vikidokart": 16,
+      "Telefony": 2,
+      "Televizory": 72,
+      "Noutbuki": 40,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-03-09",
+      "Vikidokart": 79,
+      "Telefony": 88,
+      "Televizory": 24,
+      "Noutbuki": 100,
+      "Klaviatury": 95
+    },
+    {
+      "date": "2023-03-10",
+      "Vikidokart": 47,
+      "Telefony": 88,
+      "Televizory": 26,
+      "Noutbuki": 88,
+      "Klaviatury": 10
+    },
+    {
+      "date": "2023-03-11",
+      "Vikidokart": 26,
+      "Telefony": 71,
+      "Televizory": 99,
+      "Noutbuki": 74,
+      "Klaviatury": 67
+    },
+    {
+      "date": "2023-03-12",
+      "Vikidokart": 5,
+      "Telefony": 50,
+      "Televizory": 14,
+      "Noutbuki": 81,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-03-13",
+      "Vikidokart": 15,
+      "Telefony": 85,
+      "Televizory": 32,
+      "Noutbuki": 23,
+      "Klaviatury": 2
+    },
+    {
+      "date": "2023-03-14",
+      "Vikidokart": 56,
+      "Telefony": 2,
+      "Televizory": 23,
+      "Noutbuki": 64,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-03-15",
+      "Vikidokart": 10,
+      "Telefony": 4,
+      "Televizory": 99,
+      "Noutbuki": 85,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-03-16",
+      "Vikidokart": 16,
+      "Telefony": 14,
+      "Televizory": 4,
+      "Noutbuki": 79,
+      "Klaviatury": 79
+    },
+    {
+      "date": "2023-03-17",
+      "Vikidokart": 67,
+      "Telefony": 91,
+      "Televizory": 68,
+      "Noutbuki": 86,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-03-18",
+      "Vikidokart": 72,
+      "Telefony": 79,
+      "Televizory": 47,
+      "Noutbuki": 33,
+      "Klaviatury": 69
+    },
+    {
+      "date": "2023-03-19",
+      "Vikidokart": 65,
+      "Telefony": 32,
+      "Televizory": 76,
+      "Noutbuki": 56,
+      "Klaviatury": 86
+    },
+    {
+      "date": "2023-03-20",
+      "Vikidokart": 57,
+      "Telefony": 58,
+      "Televizory": 94,
+      "Noutbuki": 21,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-03-21",
+      "Vikidokart": 9,
+      "Telefony": 80,
+      "Televizory": 4,
+      "Noutbuki": 16,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-03-22",
+      "Vikidokart": 66,
+      "Telefony": 36,
+      "Televizory": 87,
+      "Noutbuki": 8,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-03-23",
+      "Vikidokart": 38,
+      "Telefony": 12,
+      "Televizory": 12,
+      "Noutbuki": 6,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-03-24",
+      "Vikidokart": 62,
+      "Telefony": 88,
+      "Televizory": 90,
+      "Noutbuki": 84,
+      "Klaviatury": 94
+    },
+    {
+      "date": "2023-03-25",
+      "Vikidokart": 61,
+      "Telefony": 70,
+      "Televizory": 8,
+      "Noutbuki": 96,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-03-26",
+      "Vikidokart": 55,
+      "Telefony": 24,
+      "Televizory": 37,
+      "Noutbuki": 25,
+      "Klaviatury": 64
+    },
+    {
+      "date": "2023-03-27",
+      "Vikidokart": 81,
+      "Telefony": 53,
+      "Televizory": 35,
+      "Noutbuki": 16,
+      "Klaviatury": 2
+    },
+    {
+      "date": "2023-03-28",
+      "Vikidokart": 9,
+      "Telefony": 55,
+      "Televizory": 40,
+      "Noutbuki": 51,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-03-29",
+      "Vikidokart": 43,
+      "Telefony": 14,
+      "Televizory": 88,
+      "Noutbuki": 71,
+      "Klaviatury": 83
+    },
+    {
+      "date": "2023-03-30",
+      "Vikidokart": 63,
+      "Telefony": 68,
+      "Televizory": 95,
+      "Noutbuki": 22,
+      "Klaviatury": 25
+    },
+    {
+      "date": "2023-03-31",
+      "Vikidokart": 69,
+      "Telefony": 50,
+      "Televizory": 13,
+      "Noutbuki": 85,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-04-01",
+      "Vikidokart": 53,
+      "Telefony": 99,
+      "Televizory": 94,
+      "Noutbuki": 57,
+      "Klaviatury": 71
+    },
+    {
+      "date": "2023-04-02",
+      "Vikidokart": 17,
+      "Telefony": 93,
+      "Televizory": 20,
+      "Noutbuki": 84,
+      "Klaviatury": 46
+    },
+    {
+      "date": "2023-04-03",
+      "Vikidokart": 34,
+      "Telefony": 13,
+      "Televizory": 17,
+      "Noutbuki": 9,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-04-04",
+      "Vikidokart": 31,
+      "Telefony": 72,
+      "Televizory": 28,
+      "Noutbuki": 43,
+      "Klaviatury": 68
+    },
+    {
+      "date": "2023-04-05",
+      "Vikidokart": 34,
+      "Telefony": 91,
+      "Televizory": 38,
+      "Noutbuki": 10,
+      "Klaviatury": 89
+    },
+    {
+      "date": "2023-04-06",
+      "Vikidokart": 34,
+      "Telefony": 49,
+      "Televizory": 77,
+      "Noutbuki": 16,
+      "Klaviatury": 15
+    },
+    {
+      "date": "2023-04-07",
+      "Vikidokart": 94,
+      "Telefony": 2,
+      "Televizory": 11,
+      "Noutbuki": 20,
+      "Klaviatury": 46
+    },
+    {
+      "date": "2023-04-08",
+      "Vikidokart": 24,
+      "Telefony": 71,
+      "Televizory": 75,
+      "Noutbuki": 8,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-04-09",
+      "Vikidokart": 11,
+      "Telefony": 58,
+      "Televizory": 20,
+      "Noutbuki": 35,
+      "Klaviatury": 58
+    },
+    {
+      "date": "2023-04-10",
+      "Vikidokart": 74,
+      "Telefony": 76,
+      "Televizory": 19,
+      "Noutbuki": 2,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-04-11",
+      "Vikidokart": 52,
+      "Telefony": 26,
+      "Televizory": 88,
+      "Noutbuki": 76,
+      "Klaviatury": 62
+    },
+    {
+      "date": "2023-04-12",
+      "Vikidokart": 27,
+      "Telefony": 2,
+      "Televizory": 98,
+      "Noutbuki": 65,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-04-13",
+      "Vikidokart": 13,
+      "Telefony": 88,
+      "Televizory": 57,
+      "Noutbuki": 47,
+      "Klaviatury": 58
+    },
+    {
+      "date": "2023-04-14",
+      "Vikidokart": 82,
+      "Telefony": 52,
+      "Televizory": 71,
+      "Noutbuki": 36,
+      "Klaviatury": 66
+    },
+    {
+      "date": "2023-04-15",
+      "Vikidokart": 44,
+      "Telefony": 91,
+      "Televizory": 20,
+      "Noutbuki": 33,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-04-16",
+      "Vikidokart": 44,
+      "Telefony": 25,
+      "Televizory": 12,
+      "Noutbuki": 23,
+      "Klaviatury": 20
+    },
+    {
+      "date": "2023-04-17",
+      "Vikidokart": 28,
+      "Telefony": 79,
+      "Televizory": 73,
+      "Noutbuki": 36,
+      "Klaviatury": 69
+    },
+    {
+      "date": "2023-04-18",
+      "Vikidokart": 32,
+      "Telefony": 30,
+      "Televizory": 26,
+      "Noutbuki": 56,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-04-19",
+      "Vikidokart": 59,
+      "Telefony": 46,
+      "Televizory": 48,
+      "Noutbuki": 8,
+      "Klaviatury": 59
+    },
+    {
+      "date": "2023-04-20",
+      "Vikidokart": 81,
+      "Telefony": 55,
+      "Televizory": 52,
+      "Noutbuki": 70,
+      "Klaviatury": 49
+    },
+    {
+      "date": "2023-04-21",
+      "Vikidokart": 99,
+      "Telefony": 9,
+      "Televizory": 74,
+      "Noutbuki": 9,
+      "Klaviatury": 25
+    },
+    {
+      "date": "2023-04-22",
+      "Vikidokart": 28,
+      "Telefony": 3,
+      "Televizory": 6,
+      "Noutbuki": 30,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-04-23",
+      "Vikidokart": 63,
+      "Telefony": 68,
+      "Televizory": 24,
+      "Noutbuki": 50,
+      "Klaviatury": 40
+    },
+    {
+      "date": "2023-04-24",
+      "Vikidokart": 51,
+      "Telefony": 30,
+      "Televizory": 42,
+      "Noutbuki": 95,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-04-25",
+      "Vikidokart": 12,
+      "Telefony": 1,
+      "Televizory": 3,
+      "Noutbuki": 33,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-04-26",
+      "Vikidokart": 13,
+      "Telefony": 60,
+      "Televizory": 51,
+      "Noutbuki": 74,
+      "Klaviatury": 10
+    },
+    {
+      "date": "2023-04-27",
+      "Vikidokart": 46,
+      "Telefony": 37,
+      "Televizory": 82,
+      "Noutbuki": 7,
+      "Klaviatury": 90
+    },
+    {
+      "date": "2023-04-28",
+      "Vikidokart": 58,
+      "Telefony": 84,
+      "Televizory": 15,
+      "Noutbuki": 72,
+      "Klaviatury": 82
+    },
+    {
+      "date": "2023-04-29",
+      "Vikidokart": 26,
+      "Telefony": 22,
+      "Televizory": 23,
+      "Noutbuki": 37,
+      "Klaviatury": 26
+    },
+    {
+      "date": "2023-04-30",
+      "Vikidokart": 18,
+      "Telefony": 37,
+      "Televizory": 73,
+      "Noutbuki": 11,
+      "Klaviatury": 89
+    },
+    {
+      "date": "2023-05-01",
+      "Vikidokart": 36,
+      "Telefony": 6,
+      "Televizory": 61,
+      "Noutbuki": 94,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-05-02",
+      "Vikidokart": 55,
+      "Telefony": 51,
+      "Televizory": 58,
+      "Noutbuki": 93,
+      "Klaviatury": 68
+    },
+    {
+      "date": "2023-05-03",
+      "Vikidokart": 24,
+      "Telefony": 19,
+      "Televizory": 77,
+      "Noutbuki": 37,
+      "Klaviatury": 42
+    },
+    {
+      "date": "2023-05-04",
+      "Vikidokart": 7,
+      "Telefony": 59,
+      "Televizory": 63,
+      "Noutbuki": 24,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-05-05",
+      "Vikidokart": 35,
+      "Telefony": 11,
+      "Televizory": 96,
+      "Noutbuki": 29,
+      "Klaviatury": 68
+    },
+    {
+      "date": "2023-05-06",
+      "Vikidokart": 28,
+      "Telefony": 20,
+      "Televizory": 61,
+      "Noutbuki": 4,
+      "Klaviatury": 16
+    },
+    {
+      "date": "2023-05-07",
+      "Vikidokart": 53,
+      "Telefony": 15,
+      "Televizory": 18,
+      "Noutbuki": 82,
+      "Klaviatury": 48
+    },
+    {
+      "date": "2023-05-08",
+      "Vikidokart": 96,
+      "Telefony": 43,
+      "Televizory": 66,
+      "Noutbuki": 6,
+      "Klaviatury": 21
+    },
+    {
+      "date": "2023-05-09",
+      "Vikidokart": 60,
+      "Telefony": 11,
+      "Televizory": 46,
+      "Noutbuki": 23,
+      "Klaviatury": 24
+    },
+    {
+      "date": "2023-05-10",
+      "Vikidokart": 46,
+      "Telefony": 74,
+      "Televizory": 23,
+      "Noutbuki": 91,
+      "Klaviatury": 78
+    },
+    {
+      "date": "2023-05-11",
+      "Vikidokart": 44,
+      "Telefony": 14,
+      "Televizory": 100,
+      "Noutbuki": 87,
+      "Klaviatury": 36
+    },
+    {
+      "date": "2023-05-12",
+      "Vikidokart": 8,
+      "Telefony": 16,
+      "Televizory": 64,
+      "Noutbuki": 42,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-05-13",
+      "Vikidokart": 15,
+      "Telefony": 51,
+      "Televizory": 81,
+      "Noutbuki": 100,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-05-14",
+      "Vikidokart": 51,
+      "Telefony": 31,
+      "Televizory": 38,
+      "Noutbuki": 3,
+      "Klaviatury": 99
+    },
+    {
+      "date": "2023-05-15",
+      "Vikidokart": 40,
+      "Telefony": 21,
+      "Televizory": 33,
+      "Noutbuki": 39,
+      "Klaviatury": 67
+    },
+    {
+      "date": "2023-05-16",
+      "Vikidokart": 56,
+      "Telefony": 36,
+      "Televizory": 62,
+      "Noutbuki": 12,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-05-17",
+      "Vikidokart": 37,
+      "Telefony": 18,
+      "Televizory": 54,
+      "Noutbuki": 76,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-05-18",
+      "Vikidokart": 96,
+      "Telefony": 34,
+      "Televizory": 56,
+      "Noutbuki": 70,
+      "Klaviatury": 11
+    },
+    {
+      "date": "2023-05-19",
+      "Vikidokart": 70,
+      "Telefony": 86,
+      "Televizory": 18,
+      "Noutbuki": 9,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-05-20",
+      "Vikidokart": 43,
+      "Telefony": 1,
+      "Televizory": 66,
+      "Noutbuki": 31,
+      "Klaviatury": 81
+    },
+    {
+      "date": "2023-05-21",
+      "Vikidokart": 51,
+      "Telefony": 26,
+      "Televizory": 73,
+      "Noutbuki": 16,
+      "Klaviatury": 49
+    },
+    {
+      "date": "2023-05-22",
+      "Vikidokart": 76,
+      "Telefony": 92,
+      "Televizory": 91,
+      "Noutbuki": 23,
+      "Klaviatury": 30
+    },
+    {
+      "date": "2023-05-23",
+      "Vikidokart": 19,
+      "Telefony": 41,
+      "Televizory": 93,
+      "Noutbuki": 58,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-05-24",
+      "Vikidokart": 67,
+      "Telefony": 88,
+      "Televizory": 22,
+      "Noutbuki": 74,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-05-25",
+      "Vikidokart": 96,
+      "Telefony": 29,
+      "Televizory": 50,
+      "Noutbuki": 33,
+      "Klaviatury": 39
+    },
+    {
+      "date": "2023-05-26",
+      "Vikidokart": 64,
+      "Telefony": 89,
+      "Televizory": 31,
+      "Noutbuki": 77,
+      "Klaviatury": 79
+    },
+    {
+      "date": "2023-05-27",
+      "Vikidokart": 55,
+      "Telefony": 87,
+      "Televizory": 91,
+      "Noutbuki": 25,
+      "Klaviatury": 78
+    },
+    {
+      "date": "2023-05-28",
+      "Vikidokart": 1,
+      "Telefony": 68,
+      "Televizory": 84,
+      "Noutbuki": 73,
+      "Klaviatury": 40
+    },
+    {
+      "date": "2023-05-29",
+      "Vikidokart": 78,
+      "Telefony": 32,
+      "Televizory": 42,
+      "Noutbuki": 89,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-05-30",
+      "Vikidokart": 73,
+      "Telefony": 15,
+      "Televizory": 48,
+      "Noutbuki": 88,
+      "Klaviatury": 2
+    },
+    {
+      "date": "2023-05-31",
+      "Vikidokart": 72,
+      "Telefony": 78,
+      "Televizory": 29,
+      "Noutbuki": 65,
+      "Klaviatury": 82
+    },
+    {
+      "date": "2023-06-01",
+      "Vikidokart": 23,
+      "Telefony": 87,
+      "Televizory": 31,
+      "Noutbuki": 49,
+      "Klaviatury": 13
+    },
+    {
+      "date": "2023-06-02",
+      "Vikidokart": 4,
+      "Telefony": 91,
+      "Televizory": 4,
+      "Noutbuki": 45,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-06-03",
+      "Vikidokart": 87,
+      "Telefony": 46,
+      "Televizory": 3,
+      "Noutbuki": 78,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-06-04",
+      "Vikidokart": 95,
+      "Telefony": 19,
+      "Televizory": 62,
+      "Noutbuki": 62,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-06-05",
+      "Vikidokart": 44,
+      "Telefony": 2,
+      "Televizory": 27,
+      "Noutbuki": 69,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-06-06",
+      "Vikidokart": 60,
+      "Telefony": 6,
+      "Televizory": 54,
+      "Noutbuki": 12,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-06-07",
+      "Vikidokart": 84,
+      "Telefony": 12,
+      "Televizory": 52,
+      "Noutbuki": 64,
+      "Klaviatury": 86
+    },
+    {
+      "date": "2023-06-08",
+      "Vikidokart": 26,
+      "Telefony": 17,
+      "Televizory": 44,
+      "Noutbuki": 87,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-06-09",
+      "Vikidokart": 28,
+      "Telefony": 97,
+      "Televizory": 15,
+      "Noutbuki": 67,
+      "Klaviatury": 48
+    },
+    {
+      "date": "2023-06-10",
+      "Vikidokart": 62,
+      "Telefony": 15,
+      "Televizory": 17,
+      "Noutbuki": 98,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-06-11",
+      "Vikidokart": 12,
+      "Telefony": 85,
+      "Televizory": 62,
+      "Noutbuki": 44,
+      "Klaviatury": 95
+    },
+    {
+      "date": "2023-06-12",
+      "Vikidokart": 31,
+      "Telefony": 21,
+      "Televizory": 92,
+      "Noutbuki": 41,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-06-13",
+      "Vikidokart": 41,
+      "Telefony": 19,
+      "Televizory": 45,
+      "Noutbuki": 5,
+      "Klaviatury": 79
+    },
+    {
+      "date": "2023-06-14",
+      "Vikidokart": 93,
+      "Telefony": 18,
+      "Televizory": 7,
+      "Noutbuki": 69,
+      "Klaviatury": 28
+    },
+    {
+      "date": "2023-06-15",
+      "Vikidokart": 38,
+      "Telefony": 67,
+      "Televizory": 46,
+      "Noutbuki": 86,
+      "Klaviatury": 79
+    },
+    {
+      "date": "2023-06-16",
+      "Vikidokart": 26,
+      "Telefony": 73,
+      "Televizory": 29,
+      "Noutbuki": 99,
+      "Klaviatury": 77
+    },
+    {
+      "date": "2023-06-17",
+      "Vikidokart": 1,
+      "Telefony": 67,
+      "Televizory": 13,
+      "Noutbuki": 83,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-06-18",
+      "Vikidokart": 23,
+      "Telefony": 65,
+      "Televizory": 85,
+      "Noutbuki": 27,
+      "Klaviatury": 56
+    },
+    {
+      "date": "2023-06-19",
+      "Vikidokart": 80,
+      "Telefony": 35,
+      "Televizory": 85,
+      "Noutbuki": 97,
+      "Klaviatury": 36
+    },
+    {
+      "date": "2023-06-20",
+      "Vikidokart": 61,
+      "Telefony": 75,
+      "Televizory": 76,
+      "Noutbuki": 52,
+      "Klaviatury": 82
+    },
+    {
+      "date": "2023-06-21",
+      "Vikidokart": 18,
+      "Telefony": 45,
+      "Televizory": 46,
+      "Noutbuki": 57,
+      "Klaviatury": 21
+    },
+    {
+      "date": "2023-06-22",
+      "Vikidokart": 91,
+      "Telefony": 64,
+      "Televizory": 100,
+      "Noutbuki": 89,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-06-23",
+      "Vikidokart": 66,
+      "Telefony": 87,
+      "Televizory": 79,
+      "Noutbuki": 41,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-06-24",
+      "Vikidokart": 97,
+      "Telefony": 87,
+      "Televizory": 31,
+      "Noutbuki": 29,
+      "Klaviatury": 51
+    },
+    {
+      "date": "2023-06-25",
+      "Vikidokart": 57,
+      "Telefony": 4,
+      "Televizory": 48,
+      "Noutbuki": 98,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-06-26",
+      "Vikidokart": 55,
+      "Telefony": 81,
+      "Televizory": 75,
+      "Noutbuki": 65,
+      "Klaviatury": 32
+    },
+    {
+      "date": "2023-06-27",
+      "Vikidokart": 11,
+      "Telefony": 41,
+      "Televizory": 76,
+      "Noutbuki": 78,
+      "Klaviatury": 80
+    },
+    {
+      "date": "2023-06-28",
+      "Vikidokart": 40,
+      "Telefony": 95,
+      "Televizory": 89,
+      "Noutbuki": 73,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-06-29",
+      "Vikidokart": 57,
+      "Telefony": 51,
+      "Televizory": 9,
+      "Noutbuki": 71,
+      "Klaviatury": 92
+    },
+    {
+      "date": "2023-06-30",
+      "Vikidokart": 11,
+      "Telefony": 86,
+      "Televizory": 78,
+      "Noutbuki": 32,
+      "Klaviatury": 73
+    },
+    {
+      "date": "2023-07-01",
+      "Vikidokart": 25,
+      "Telefony": 67,
+      "Televizory": 4,
+      "Noutbuki": 54,
+      "Klaviatury": 80
+    },
+    {
+      "date": "2023-07-02",
+      "Vikidokart": 32,
+      "Telefony": 42,
+      "Televizory": 91,
+      "Noutbuki": 80,
+      "Klaviatury": 1
+    },
+    {
+      "date": "2023-07-03",
+      "Vikidokart": 42,
+      "Telefony": 13,
+      "Televizory": 73,
+      "Noutbuki": 60,
+      "Klaviatury": 92
+    },
+    {
+      "date": "2023-07-04",
+      "Vikidokart": 4,
+      "Telefony": 82,
+      "Televizory": 98,
+      "Noutbuki": 76,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-07-05",
+      "Vikidokart": 65,
+      "Telefony": 62,
+      "Televizory": 7,
+      "Noutbuki": 59,
+      "Klaviatury": 20
+    },
+    {
+      "date": "2023-07-06",
+      "Vikidokart": 53,
+      "Telefony": 78,
+      "Televizory": 43,
+      "Noutbuki": 20,
+      "Klaviatury": 36
+    },
+    {
+      "date": "2023-07-07",
+      "Vikidokart": 89,
+      "Telefony": 23,
+      "Televizory": 86,
+      "Noutbuki": 33,
+      "Klaviatury": 45
+    },
+    {
+      "date": "2023-07-08",
+      "Vikidokart": 66,
+      "Telefony": 14,
+      "Televizory": 41,
+      "Noutbuki": 79,
+      "Klaviatury": 73
+    },
+    {
+      "date": "2023-07-09",
+      "Vikidokart": 91,
+      "Telefony": 68,
+      "Televizory": 93,
+      "Noutbuki": 72,
+      "Klaviatury": 39
+    },
+    {
+      "date": "2023-07-10",
+      "Vikidokart": 39,
+      "Telefony": 49,
+      "Televizory": 10,
+      "Noutbuki": 19,
+      "Klaviatury": 57
+    },
+    {
+      "date": "2023-07-11",
+      "Vikidokart": 23,
+      "Telefony": 48,
+      "Televizory": 41,
+      "Noutbuki": 10,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-07-12",
+      "Vikidokart": 50,
+      "Telefony": 69,
+      "Televizory": 85,
+      "Noutbuki": 31,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-07-13",
+      "Vikidokart": 18,
+      "Telefony": 55,
+      "Televizory": 94,
+      "Noutbuki": 65,
+      "Klaviatury": 23
+    },
+    {
+      "date": "2023-07-14",
+      "Vikidokart": 55,
+      "Telefony": 79,
+      "Televizory": 66,
+      "Noutbuki": 75,
+      "Klaviatury": 98
+    },
+    {
+      "date": "2023-07-15",
+      "Vikidokart": 12,
+      "Telefony": 33,
+      "Televizory": 1,
+      "Noutbuki": 76,
+      "Klaviatury": 90
+    },
+    {
+      "date": "2023-07-16",
+      "Vikidokart": 64,
+      "Telefony": 29,
+      "Televizory": 96,
+      "Noutbuki": 49,
+      "Klaviatury": 17
+    },
+    {
+      "date": "2023-07-17",
+      "Vikidokart": 10,
+      "Telefony": 30,
+      "Televizory": 31,
+      "Noutbuki": 83,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-07-18",
+      "Vikidokart": 54,
+      "Telefony": 62,
+      "Televizory": 13,
+      "Noutbuki": 48,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-07-19",
+      "Vikidokart": 50,
+      "Telefony": 52,
+      "Televizory": 13,
+      "Noutbuki": 99,
+      "Klaviatury": 53
+    },
+    {
+      "date": "2023-07-20",
+      "Vikidokart": 62,
+      "Telefony": 11,
+      "Televizory": 25,
+      "Noutbuki": 100,
+      "Klaviatury": 49
+    },
+    {
+      "date": "2023-07-21",
+      "Vikidokart": 31,
+      "Telefony": 83,
+      "Televizory": 43,
+      "Noutbuki": 32,
+      "Klaviatury": 45
+    },
+    {
+      "date": "2023-07-22",
+      "Vikidokart": 99,
+      "Telefony": 63,
+      "Televizory": 70,
+      "Noutbuki": 11,
+      "Klaviatury": 57
+    },
+    {
+      "date": "2023-07-23",
+      "Vikidokart": 38,
+      "Telefony": 81,
+      "Televizory": 73,
+      "Noutbuki": 27,
+      "Klaviatury": 40
+    },
+    {
+      "date": "2023-07-24",
+      "Vikidokart": 78,
+      "Telefony": 96,
+      "Televizory": 11,
+      "Noutbuki": 53,
+      "Klaviatury": 64
+    },
+    {
+      "date": "2023-07-25",
+      "Vikidokart": 83,
+      "Telefony": 79,
+      "Televizory": 40,
+      "Noutbuki": 39,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-07-26",
+      "Vikidokart": 74,
+      "Telefony": 45,
+      "Televizory": 70,
+      "Noutbuki": 57,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-07-27",
+      "Vikidokart": 38,
+      "Telefony": 12,
+      "Televizory": 40,
+      "Noutbuki": 34,
+      "Klaviatury": 3
+    },
+    {
+      "date": "2023-07-28",
+      "Vikidokart": 70,
+      "Telefony": 100,
+      "Televizory": 15,
+      "Noutbuki": 9,
+      "Klaviatury": 71
+    },
+    {
+      "date": "2023-07-29",
+      "Vikidokart": 97,
+      "Telefony": 42,
+      "Televizory": 81,
+      "Noutbuki": 74,
+      "Klaviatury": 11
+    },
+    {
+      "date": "2023-07-30",
+      "Vikidokart": 31,
+      "Telefony": 64,
+      "Televizory": 29,
+      "Noutbuki": 17,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-07-31",
+      "Vikidokart": 67,
+      "Telefony": 94,
+      "Televizory": 73,
+      "Noutbuki": 96,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-08-01",
+      "Vikidokart": 94,
+      "Telefony": 85,
+      "Televizory": 49,
+      "Noutbuki": 47,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-08-02",
+      "Vikidokart": 34,
+      "Telefony": 20,
+      "Televizory": 79,
+      "Noutbuki": 64,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-08-03",
+      "Vikidokart": 60,
+      "Telefony": 10,
+      "Televizory": 20,
+      "Noutbuki": 42,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-08-04",
+      "Vikidokart": 70,
+      "Telefony": 35,
+      "Televizory": 24,
+      "Noutbuki": 21,
+      "Klaviatury": 17
+    },
+    {
+      "date": "2023-08-05",
+      "Vikidokart": 31,
+      "Telefony": 36,
+      "Televizory": 3,
+      "Noutbuki": 89,
+      "Klaviatury": 27
+    },
+    {
+      "date": "2023-08-06",
+      "Vikidokart": 48,
+      "Telefony": 29,
+      "Televizory": 36,
+      "Noutbuki": 90,
+      "Klaviatury": 73
+    },
+    {
+      "date": "2023-08-07",
+      "Vikidokart": 24,
+      "Telefony": 74,
+      "Televizory": 28,
+      "Noutbuki": 96,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-08-08",
+      "Vikidokart": 69,
+      "Telefony": 59,
+      "Televizory": 51,
+      "Noutbuki": 90,
+      "Klaviatury": 93
+    },
+    {
+      "date": "2023-08-09",
+      "Vikidokart": 51,
+      "Telefony": 39,
+      "Televizory": 30,
+      "Noutbuki": 76,
+      "Klaviatury": 89
+    },
+    {
+      "date": "2023-08-10",
+      "Vikidokart": 86,
+      "Telefony": 60,
+      "Televizory": 72,
+      "Noutbuki": 37,
+      "Klaviatury": 54
+    },
+    {
+      "date": "2023-08-11",
+      "Vikidokart": 28,
+      "Telefony": 74,
+      "Televizory": 92,
+      "Noutbuki": 61,
+      "Klaviatury": 1
+    },
+    {
+      "date": "2023-08-12",
+      "Vikidokart": 18,
+      "Telefony": 39,
+      "Televizory": 85,
+      "Noutbuki": 90,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-08-13",
+      "Vikidokart": 60,
+      "Telefony": 63,
+      "Televizory": 91,
+      "Noutbuki": 10,
+      "Klaviatury": 42
+    },
+    {
+      "date": "2023-08-14",
+      "Vikidokart": 31,
+      "Telefony": 93,
+      "Televizory": 31,
+      "Noutbuki": 35,
+      "Klaviatury": 45
+    },
+    {
+      "date": "2023-08-15",
+      "Vikidokart": 97,
+      "Telefony": 33,
+      "Televizory": 5,
+      "Noutbuki": 66,
+      "Klaviatury": 94
+    },
+    {
+      "date": "2023-08-16",
+      "Vikidokart": 56,
+      "Telefony": 6,
+      "Televizory": 34,
+      "Noutbuki": 3,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-08-17",
+      "Vikidokart": 65,
+      "Telefony": 29,
+      "Televizory": 47,
+      "Noutbuki": 59,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-08-18",
+      "Vikidokart": 70,
+      "Telefony": 16,
+      "Televizory": 76,
+      "Noutbuki": 61,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-08-19",
+      "Vikidokart": 34,
+      "Telefony": 34,
+      "Televizory": 16,
+      "Noutbuki": 42,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-08-20",
+      "Vikidokart": 63,
+      "Telefony": 92,
+      "Televizory": 43,
+      "Noutbuki": 97,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-08-21",
+      "Vikidokart": 82,
+      "Telefony": 88,
+      "Televizory": 63,
+      "Noutbuki": 69,
+      "Klaviatury": 69
+    },
+    {
+      "date": "2023-08-22",
+      "Vikidokart": 90,
+      "Telefony": 82,
+      "Televizory": 19,
+      "Noutbuki": 45,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-08-23",
+      "Vikidokart": 93,
+      "Telefony": 35,
+      "Televizory": 37,
+      "Noutbuki": 46,
+      "Klaviatury": 45
+    },
+    {
+      "date": "2023-08-24",
+      "Vikidokart": 100,
+      "Telefony": 78,
+      "Televizory": 9,
+      "Noutbuki": 63,
+      "Klaviatury": 13
+    },
+    {
+      "date": "2023-08-25",
+      "Vikidokart": 59,
+      "Telefony": 90,
+      "Televizory": 75,
+      "Noutbuki": 70,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-08-26",
+      "Vikidokart": 46,
+      "Telefony": 58,
+      "Televizory": 69,
+      "Noutbuki": 21,
+      "Klaviatury": 72
+    },
+    {
+      "date": "2023-08-27",
+      "Vikidokart": 100,
+      "Telefony": 2,
+      "Televizory": 63,
+      "Noutbuki": 52,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-08-28",
+      "Vikidokart": 71,
+      "Telefony": 22,
+      "Televizory": 99,
+      "Noutbuki": 55,
+      "Klaviatury": 27
+    },
+    {
+      "date": "2023-08-29",
+      "Vikidokart": 72,
+      "Telefony": 22,
+      "Televizory": 68,
+      "Noutbuki": 11,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-08-30",
+      "Vikidokart": 81,
+      "Telefony": 49,
+      "Televizory": 85,
+      "Noutbuki": 7,
+      "Klaviatury": 61
+    },
+    {
+      "date": "2023-08-31",
+      "Vikidokart": 99,
+      "Telefony": 7,
+      "Televizory": 100,
+      "Noutbuki": 3,
+      "Klaviatury": 15
+    },
+    {
+      "date": "2023-09-01",
+      "Vikidokart": 35,
+      "Telefony": 91,
+      "Televizory": 22,
+      "Noutbuki": 11,
+      "Klaviatury": 66
+    },
+    {
+      "date": "2023-09-02",
+      "Vikidokart": 30,
+      "Telefony": 94,
+      "Televizory": 26,
+      "Noutbuki": 34,
+      "Klaviatury": 16
+    },
+    {
+      "date": "2023-09-03",
+      "Vikidokart": 75,
+      "Telefony": 7,
+      "Televizory": 88,
+      "Noutbuki": 19,
+      "Klaviatury": 36
+    },
+    {
+      "date": "2023-09-04",
+      "Vikidokart": 51,
+      "Telefony": 18,
+      "Televizory": 90,
+      "Noutbuki": 13,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-09-05",
+      "Vikidokart": 2,
+      "Telefony": 89,
+      "Televizory": 90,
+      "Noutbuki": 18,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-09-06",
+      "Vikidokart": 4,
+      "Telefony": 51,
+      "Televizory": 95,
+      "Noutbuki": 99,
+      "Klaviatury": 48
+    },
+    {
+      "date": "2023-09-07",
+      "Vikidokart": 73,
+      "Telefony": 91,
+      "Televizory": 64,
+      "Noutbuki": 37,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-09-08",
+      "Vikidokart": 13,
+      "Telefony": 43,
+      "Televizory": 82,
+      "Noutbuki": 8,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-09-09",
+      "Vikidokart": 6,
+      "Telefony": 65,
+      "Televizory": 91,
+      "Noutbuki": 26,
+      "Klaviatury": 47
+    },
+    {
+      "date": "2023-09-10",
+      "Vikidokart": 54,
+      "Telefony": 74,
+      "Televizory": 14,
+      "Noutbuki": 86,
+      "Klaviatury": 67
+    },
+    {
+      "date": "2023-09-11",
+      "Vikidokart": 60,
+      "Telefony": 50,
+      "Televizory": 12,
+      "Noutbuki": 75,
+      "Klaviatury": 30
+    },
+    {
+      "date": "2023-09-12",
+      "Vikidokart": 98,
+      "Telefony": 63,
+      "Televizory": 55,
+      "Noutbuki": 85,
+      "Klaviatury": 100
+    },
+    {
+      "date": "2023-09-13",
+      "Vikidokart": 29,
+      "Telefony": 50,
+      "Televizory": 62,
+      "Noutbuki": 5,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-09-14",
+      "Vikidokart": 73,
+      "Telefony": 65,
+      "Televizory": 98,
+      "Noutbuki": 52,
+      "Klaviatury": 93
+    },
+    {
+      "date": "2023-09-15",
+      "Vikidokart": 12,
+      "Telefony": 91,
+      "Televizory": 25,
+      "Noutbuki": 83,
+      "Klaviatury": 16
+    },
+    {
+      "date": "2023-09-16",
+      "Vikidokart": 4,
+      "Telefony": 10,
+      "Televizory": 50,
+      "Noutbuki": 83,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-09-17",
+      "Vikidokart": 5,
+      "Telefony": 88,
+      "Televizory": 89,
+      "Noutbuki": 22,
+      "Klaviatury": 56
+    },
+    {
+      "date": "2023-09-18",
+      "Vikidokart": 8,
+      "Telefony": 88,
+      "Televizory": 22,
+      "Noutbuki": 95,
+      "Klaviatury": 51
+    },
+    {
+      "date": "2023-09-19",
+      "Vikidokart": 21,
+      "Telefony": 24,
+      "Televizory": 67,
+      "Noutbuki": 17,
+      "Klaviatury": 46
+    },
+    {
+      "date": "2023-09-20",
+      "Vikidokart": 62,
+      "Telefony": 95,
+      "Televizory": 24,
+      "Noutbuki": 49,
+      "Klaviatury": 22
+    },
+    {
+      "date": "2023-09-21",
+      "Vikidokart": 96,
+      "Telefony": 37,
+      "Televizory": 55,
+      "Noutbuki": 23,
+      "Klaviatury": 32
+    },
+    {
+      "date": "2023-09-22",
+      "Vikidokart": 33,
+      "Telefony": 29,
+      "Televizory": 5,
+      "Noutbuki": 85,
+      "Klaviatury": 43
+    },
+    {
+      "date": "2023-09-23",
+      "Vikidokart": 72,
+      "Telefony": 71,
+      "Televizory": 97,
+      "Noutbuki": 37,
+      "Klaviatury": 95
+    },
+    {
+      "date": "2023-09-24",
+      "Vikidokart": 81,
+      "Telefony": 23,
+      "Televizory": 63,
+      "Noutbuki": 64,
+      "Klaviatury": 54
+    },
+    {
+      "date": "2023-09-25",
+      "Vikidokart": 39,
+      "Telefony": 23,
+      "Televizory": 86,
+      "Noutbuki": 26,
+      "Klaviatury": 50
+    },
+    {
+      "date": "2023-09-26",
+      "Vikidokart": 44,
+      "Telefony": 64,
+      "Televizory": 60,
+      "Noutbuki": 43,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-09-27",
+      "Vikidokart": 97,
+      "Telefony": 92,
+      "Televizory": 55,
+      "Noutbuki": 18,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-09-28",
+      "Vikidokart": 24,
+      "Telefony": 61,
+      "Televizory": 11,
+      "Noutbuki": 83,
+      "Klaviatury": 74
+    },
+    {
+      "date": "2023-09-29",
+      "Vikidokart": 84,
+      "Telefony": 13,
+      "Televizory": 93,
+      "Noutbuki": 47,
+      "Klaviatury": 94
+    },
+    {
+      "date": "2023-09-30",
+      "Vikidokart": 23,
+      "Telefony": 91,
+      "Televizory": 21,
+      "Noutbuki": 100,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-10-01",
+      "Vikidokart": 88,
+      "Telefony": 82,
+      "Televizory": 96,
+      "Noutbuki": 64,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-10-02",
+      "Vikidokart": 20,
+      "Telefony": 5,
+      "Televizory": 43,
+      "Noutbuki": 83,
+      "Klaviatury": 62
+    },
+    {
+      "date": "2023-10-03",
+      "Vikidokart": 83,
+      "Telefony": 13,
+      "Televizory": 17,
+      "Noutbuki": 98,
+      "Klaviatury": 31
+    },
+    {
+      "date": "2023-10-04",
+      "Vikidokart": 35,
+      "Telefony": 89,
+      "Televizory": 40,
+      "Noutbuki": 71,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-10-05",
+      "Vikidokart": 40,
+      "Telefony": 28,
+      "Televizory": 8,
+      "Noutbuki": 14,
+      "Klaviatury": 30
+    },
+    {
+      "date": "2023-10-06",
+      "Vikidokart": 53,
+      "Telefony": 16,
+      "Televizory": 17,
+      "Noutbuki": 1,
+      "Klaviatury": 5
+    },
+    {
+      "date": "2023-10-07",
+      "Vikidokart": 100,
+      "Telefony": 65,
+      "Televizory": 67,
+      "Noutbuki": 66,
+      "Klaviatury": 77
+    },
+    {
+      "date": "2023-10-08",
+      "Vikidokart": 22,
+      "Telefony": 49,
+      "Televizory": 94,
+      "Noutbuki": 46,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-10-09",
+      "Vikidokart": 61,
+      "Telefony": 72,
+      "Televizory": 23,
+      "Noutbuki": 53,
+      "Klaviatury": 96
+    },
+    {
+      "date": "2023-10-10",
+      "Vikidokart": 41,
+      "Telefony": 93,
+      "Televizory": 98,
+      "Noutbuki": 64,
+      "Klaviatury": 38
+    },
+    {
+      "date": "2023-10-11",
+      "Vikidokart": 97,
+      "Telefony": 90,
+      "Televizory": 35,
+      "Noutbuki": 54,
+      "Klaviatury": 68
+    },
+    {
+      "date": "2023-10-12",
+      "Vikidokart": 73,
+      "Telefony": 70,
+      "Televizory": 80,
+      "Noutbuki": 40,
+      "Klaviatury": 86
+    },
+    {
+      "date": "2023-10-13",
+      "Vikidokart": 31,
+      "Telefony": 3,
+      "Televizory": 72,
+      "Noutbuki": 71,
+      "Klaviatury": 21
+    },
+    {
+      "date": "2023-10-14",
+      "Vikidokart": 13,
+      "Telefony": 56,
+      "Televizory": 84,
+      "Noutbuki": 74,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-10-15",
+      "Vikidokart": 34,
+      "Telefony": 10,
+      "Televizory": 47,
+      "Noutbuki": 15,
+      "Klaviatury": 97
+    },
+    {
+      "date": "2023-10-16",
+      "Vikidokart": 29,
+      "Telefony": 83,
+      "Televizory": 87,
+      "Noutbuki": 33,
+      "Klaviatury": 79
+    },
+    {
+      "date": "2023-10-17",
+      "Vikidokart": 72,
+      "Telefony": 5,
+      "Televizory": 95,
+      "Noutbuki": 44,
+      "Klaviatury": 100
+    },
+    {
+      "date": "2023-10-18",
+      "Vikidokart": 61,
+      "Telefony": 63,
+      "Televizory": 93,
+      "Noutbuki": 51,
+      "Klaviatury": 40
+    },
+    {
+      "date": "2023-10-19",
+      "Vikidokart": 80,
+      "Telefony": 59,
+      "Televizory": 13,
+      "Noutbuki": 10,
+      "Klaviatury": 53
+    },
+    {
+      "date": "2023-10-20",
+      "Vikidokart": 44,
+      "Telefony": 65,
+      "Televizory": 51,
+      "Noutbuki": 48,
+      "Klaviatury": 59
+    },
+    {
+      "date": "2023-10-21",
+      "Vikidokart": 28,
+      "Telefony": 85,
+      "Televizory": 65,
+      "Noutbuki": 96,
+      "Klaviatury": 55
+    },
+    {
+      "date": "2023-10-22",
+      "Vikidokart": 51,
+      "Telefony": 84,
+      "Televizory": 38,
+      "Noutbuki": 80,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-10-23",
+      "Vikidokart": 34,
+      "Telefony": 61,
+      "Televizory": 75,
+      "Noutbuki": 63,
+      "Klaviatury": 98
+    },
+    {
+      "date": "2023-10-24",
+      "Vikidokart": 9,
+      "Telefony": 90,
+      "Televizory": 40,
+      "Noutbuki": 9,
+      "Klaviatury": 51
+    },
+    {
+      "date": "2023-10-25",
+      "Vikidokart": 7,
+      "Telefony": 40,
+      "Televizory": 50,
+      "Noutbuki": 11,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-10-26",
+      "Vikidokart": 84,
+      "Telefony": 2,
+      "Televizory": 60,
+      "Noutbuki": 73,
+      "Klaviatury": 41
+    },
+    {
+      "date": "2023-10-27",
+      "Vikidokart": 37,
+      "Telefony": 7,
+      "Televizory": 63,
+      "Noutbuki": 77,
+      "Klaviatury": 49
+    },
+    {
+      "date": "2023-10-28",
+      "Vikidokart": 51,
+      "Telefony": 77,
+      "Televizory": 17,
+      "Noutbuki": 23,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-10-29",
+      "Vikidokart": 50,
+      "Telefony": 64,
+      "Televizory": 76,
+      "Noutbuki": 81,
+      "Klaviatury": 61
+    },
+    {
+      "date": "2023-10-30",
+      "Vikidokart": 15,
+      "Telefony": 78,
+      "Televizory": 31,
+      "Noutbuki": 49,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-10-31",
+      "Vikidokart": 89,
+      "Telefony": 71,
+      "Televizory": 49,
+      "Noutbuki": 100,
+      "Klaviatury": 88
+    },
+    {
+      "date": "2023-11-01",
+      "Vikidokart": 88,
+      "Telefony": 34,
+      "Televizory": 71,
+      "Noutbuki": 53,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-11-02",
+      "Vikidokart": 78,
+      "Telefony": 78,
+      "Televizory": 69,
+      "Noutbuki": 5,
+      "Klaviatury": 64
+    },
+    {
+      "date": "2023-11-03",
+      "Vikidokart": 33,
+      "Telefony": 54,
+      "Televizory": 97,
+      "Noutbuki": 20,
+      "Klaviatury": 38
+    },
+    {
+      "date": "2023-11-04",
+      "Vikidokart": 74,
+      "Telefony": 91,
+      "Televizory": 87,
+      "Noutbuki": 65,
+      "Klaviatury": 55
+    },
+    {
+      "date": "2023-11-05",
+      "Vikidokart": 24,
+      "Telefony": 24,
+      "Televizory": 12,
+      "Noutbuki": 14,
+      "Klaviatury": 20
+    },
+    {
+      "date": "2023-11-06",
+      "Vikidokart": 14,
+      "Telefony": 12,
+      "Televizory": 53,
+      "Noutbuki": 81,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-11-07",
+      "Vikidokart": 66,
+      "Telefony": 2,
+      "Televizory": 26,
+      "Noutbuki": 1,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-11-08",
+      "Vikidokart": 44,
+      "Telefony": 89,
+      "Televizory": 35,
+      "Noutbuki": 73,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-11-09",
+      "Vikidokart": 74,
+      "Telefony": 9,
+      "Televizory": 100,
+      "Noutbuki": 36,
+      "Klaviatury": 80
+    },
+    {
+      "date": "2023-11-10",
+      "Vikidokart": 3,
+      "Telefony": 29,
+      "Televizory": 19,
+      "Noutbuki": 56,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-11-11",
+      "Vikidokart": 4,
+      "Telefony": 55,
+      "Televizory": 30,
+      "Noutbuki": 40,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-11-12",
+      "Vikidokart": 49,
+      "Telefony": 26,
+      "Televizory": 55,
+      "Noutbuki": 54,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-11-13",
+      "Vikidokart": 100,
+      "Telefony": 82,
+      "Televizory": 71,
+      "Noutbuki": 5,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-11-14",
+      "Vikidokart": 55,
+      "Telefony": 51,
+      "Televizory": 14,
+      "Noutbuki": 45,
+      "Klaviatury": 17
+    },
+    {
+      "date": "2023-11-15",
+      "Vikidokart": 49,
+      "Telefony": 93,
+      "Televizory": 30,
+      "Noutbuki": 34,
+      "Klaviatury": 38
+    },
+    {
+      "date": "2023-11-16",
+      "Vikidokart": 45,
+      "Telefony": 46,
+      "Televizory": 36,
+      "Noutbuki": 56,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-11-17",
+      "Vikidokart": 63,
+      "Telefony": 18,
+      "Televizory": 81,
+      "Noutbuki": 96,
+      "Klaviatury": 74
+    },
+    {
+      "date": "2023-11-18",
+      "Vikidokart": 2,
+      "Telefony": 32,
+      "Televizory": 62,
+      "Noutbuki": 38,
+      "Klaviatury": 83
+    },
+    {
+      "date": "2023-11-19",
+      "Vikidokart": 88,
+      "Telefony": 87,
+      "Televizory": 47,
+      "Noutbuki": 35,
+      "Klaviatury": 34
+    },
+    {
+      "date": "2023-11-20",
+      "Vikidokart": 52,
+      "Telefony": 53,
+      "Televizory": 30,
+      "Noutbuki": 23,
+      "Klaviatury": 83
+    },
+    {
+      "date": "2023-11-21",
+      "Vikidokart": 5,
+      "Telefony": 50,
+      "Televizory": 80,
+      "Noutbuki": 73,
+      "Klaviatury": 8
+    },
+    {
+      "date": "2023-11-22",
+      "Vikidokart": 43,
+      "Telefony": 47,
+      "Televizory": 66,
+      "Noutbuki": 59,
+      "Klaviatury": 57
+    },
+    {
+      "date": "2023-11-23",
+      "Vikidokart": 40,
+      "Telefony": 36,
+      "Televizory": 69,
+      "Noutbuki": 98,
+      "Klaviatury": 19
+    },
+    {
+      "date": "2023-11-24",
+      "Vikidokart": 69,
+      "Telefony": 4,
+      "Televizory": 15,
+      "Noutbuki": 9,
+      "Klaviatury": 47
+    },
+    {
+      "date": "2023-11-25",
+      "Vikidokart": 88,
+      "Telefony": 86,
+      "Televizory": 26,
+      "Noutbuki": 51,
+      "Klaviatury": 16
+    },
+    {
+      "date": "2023-11-26",
+      "Vikidokart": 80,
+      "Telefony": 6,
+      "Televizory": 67,
+      "Noutbuki": 65,
+      "Klaviatury": 48
+    },
+    {
+      "date": "2023-11-27",
+      "Vikidokart": 23,
+      "Telefony": 2,
+      "Televizory": 25,
+      "Noutbuki": 82,
+      "Klaviatury": 15
+    },
+    {
+      "date": "2023-11-28",
+      "Vikidokart": 80,
+      "Telefony": 51,
+      "Televizory": 19,
+      "Noutbuki": 36,
+      "Klaviatury": 87
+    },
+    {
+      "date": "2023-11-29",
+      "Vikidokart": 68,
+      "Telefony": 59,
+      "Televizory": 78,
+      "Noutbuki": 41,
+      "Klaviatury": 70
+    },
+    {
+      "date": "2023-11-30",
+      "Vikidokart": 45,
+      "Telefony": 84,
+      "Televizory": 97,
+      "Noutbuki": 51,
+      "Klaviatury": 24
+    },
+    {
+      "date": "2023-12-01",
+      "Vikidokart": 52,
+      "Telefony": 49,
+      "Televizory": 65,
+      "Noutbuki": 96,
+      "Klaviatury": 80
+    },
+    {
+      "date": "2023-12-02",
+      "Vikidokart": 37,
+      "Telefony": 40,
+      "Televizory": 66,
+      "Noutbuki": 20,
+      "Klaviatury": 9
+    },
+    {
+      "date": "2023-12-03",
+      "Vikidokart": 30,
+      "Telefony": 38,
+      "Televizory": 32,
+      "Noutbuki": 85,
+      "Klaviatury": 17
+    },
+    {
+      "date": "2023-12-04",
+      "Vikidokart": 56,
+      "Telefony": 69,
+      "Televizory": 91,
+      "Noutbuki": 39,
+      "Klaviatury": 33
+    },
+    {
+      "date": "2023-12-05",
+      "Vikidokart": 3,
+      "Telefony": 88,
+      "Televizory": 47,
+      "Noutbuki": 39,
+      "Klaviatury": 5
+    },
+    {
+      "date": "2023-12-06",
+      "Vikidokart": 59,
+      "Telefony": 68,
+      "Televizory": 13,
+      "Noutbuki": 68,
+      "Klaviatury": 18
+    },
+    {
+      "date": "2023-12-07",
+      "Vikidokart": 62,
+      "Telefony": 37,
+      "Televizory": 54,
+      "Noutbuki": 21,
+      "Klaviatury": 16
+    },
+    {
+      "date": "2023-12-08",
+      "Vikidokart": 40,
+      "Telefony": 69,
+      "Televizory": 40,
+      "Noutbuki": 8,
+      "Klaviatury": 7
+    },
+    {
+      "date": "2023-12-09",
+      "Vikidokart": 88,
+      "Telefony": 27,
+      "Televizory": 80,
+      "Noutbuki": 69,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-12-10",
+      "Vikidokart": 67,
+      "Telefony": 91,
+      "Televizory": 39,
+      "Noutbuki": 6,
+      "Klaviatury": 85
+    },
+    {
+      "date": "2023-12-11",
+      "Vikidokart": 1,
+      "Telefony": 54,
+      "Televizory": 50,
+      "Noutbuki": 30,
+      "Klaviatury": 97
+    },
+    {
+      "date": "2023-12-12",
+      "Vikidokart": 11,
+      "Telefony": 72,
+      "Televizory": 22,
+      "Noutbuki": 59,
+      "Klaviatury": 63
+    },
+    {
+      "date": "2023-12-13",
+      "Vikidokart": 84,
+      "Telefony": 83,
+      "Televizory": 29,
+      "Noutbuki": 23,
+      "Klaviatury": 68
+    },
+    {
+      "date": "2023-12-14",
+      "Vikidokart": 13,
+      "Telefony": 21,
+      "Televizory": 51,
+      "Noutbuki": 56,
+      "Klaviatury": 62
+    },
+    {
+      "date": "2023-12-15",
+      "Vikidokart": 24,
+      "Telefony": 7,
+      "Televizory": 61,
+      "Noutbuki": 13,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-12-16",
+      "Vikidokart": 71,
+      "Telefony": 74,
+      "Televizory": 31,
+      "Noutbuki": 17,
+      "Klaviatury": 29
+    },
+    {
+      "date": "2023-12-17",
+      "Vikidokart": 58,
+      "Telefony": 42,
+      "Televizory": 98,
+      "Noutbuki": 26,
+      "Klaviatury": 3
+    },
+    {
+      "date": "2023-12-18",
+      "Vikidokart": 75,
+      "Telefony": 35,
+      "Televizory": 69,
+      "Noutbuki": 88,
+      "Klaviatury": 20
+    },
+    {
+      "date": "2023-12-19",
+      "Vikidokart": 63,
+      "Telefony": 36,
+      "Televizory": 86,
+      "Noutbuki": 75,
+      "Klaviatury": 71
+    },
+    {
+      "date": "2023-12-20",
+      "Vikidokart": 37,
+      "Telefony": 47,
+      "Televizory": 67,
+      "Noutbuki": 4,
+      "Klaviatury": 52
+    },
+    {
+      "date": "2023-12-21",
+      "Vikidokart": 1,
+      "Telefony": 79,
+      "Televizory": 11,
+      "Noutbuki": 78,
+      "Klaviatury": 56
+    },
+    {
+      "date": "2023-12-22",
+      "Vikidokart": 42,
+      "Telefony": 45,
+      "Televizory": 89,
+      "Noutbuki": 5,
+      "Klaviatury": 12
+    },
+    {
+      "date": "2023-12-23",
+      "Vikidokart": 84,
+      "Telefony": 95,
+      "Televizory": 26,
+      "Noutbuki": 94,
+      "Klaviatury": 65
+    },
+    {
+      "date": "2023-12-24",
+      "Vikidokart": 68,
+      "Telefony": 56,
+      "Televizory": 27,
+      "Noutbuki": 57,
+      "Klaviatury": 76
+    },
+    {
+      "date": "2023-12-25",
+      "Vikidokart": 78,
+      "Telefony": 15,
+      "Televizory": 82,
+      "Noutbuki": 99,
+      "Klaviatury": 94
+    },
+    {
+      "date": "2023-12-26",
+      "Vikidokart": 5,
+      "Telefony": 24,
+      "Televizory": 20,
+      "Noutbuki": 2,
+      "Klaviatury": 69
+    },
+    {
+      "date": "2023-12-27",
+      "Vikidokart": 35,
+      "Telefony": 39,
+      "Televizory": 5,
+      "Noutbuki": 77,
+      "Klaviatury": 6
+    },
+    {
+      "date": "2023-12-28",
+      "Vikidokart": 28,
+      "Telefony": 7,
+      "Televizory": 5,
+      "Noutbuki": 17,
+      "Klaviatury": 75
+    },
+    {
+      "date": "2023-12-29",
+      "Vikidokart": 94,
+      "Telefony": 22,
+      "Televizory": 14,
+      "Noutbuki": 33,
+      "Klaviatury": 99
+    },
+    {
+      "date": "2023-12-30",
+      "Vikidokart": 61,
+      "Telefony": 51,
+      "Televizory": 28,
+      "Noutbuki": 7,
+      "Klaviatury": 39
+    },
+    {
+      "date": "2023-12-31",
+      "Vikidokart": 10,
+      "Telefony": 32,
+      "Televizory": 9,
+      "Noutbuki": 10,
+      "Klaviatury": 29
+    }
+  ]
+}

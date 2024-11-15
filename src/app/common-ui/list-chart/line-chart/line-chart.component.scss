@@ -2,10 +2,10 @@
 
 .line-chart__wrapper  {
     @extend %increase-shadow-block-default;
-    
     @extend %center-flex-column;
     padding: 30px;
     border-radius: 50px;
+    width: 35vw;
 
     @media screen and (max-width: 900px) {
         width: 85%;
@@ -17,5 +17,6 @@
 
     .line-chart__temp {
         background-color: $color-grey-background-chart;
+        max-height: 60%;
     }
 }
