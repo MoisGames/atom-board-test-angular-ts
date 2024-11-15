@@ -5,7 +5,7 @@ import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2
 import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
 import { InputDateComponent } from "../../input-date/input-date.component";
 import dateFormat from 'dateformat';
-import { secPerDay } from '../../../utils/const';
+import { SEC_PER_DAY } from '../../../utils/const';
 import { draw } from 'patternomaly';
 import { FormattedDataService } from '../../../data/services/formatted-data/formatted-data.service';
 @Component({
@@ -64,10 +64,11 @@ export class LineChartComponent {
           } else {
             currentDay = 0
           }
-          const lastDay = currentDay + (this.days * secPerDay) // Мс в последнем дне
+          const lastDay = currentDay + (this.days * SEC_PER_DAY) // Мс в последнем дне
           
           if(dateFromArray >= currentDay && dateFromArray <= lastDay ) {
-            return true
+            return true 
+          // Если выбранная дата соответствует тогда вернем массив и запишем его в график
           } else {
             return false
           }

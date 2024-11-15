@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { LineChartComponent } from "./line-chart/line-chart.component";
+import { LineChartComponent } from '../../common-ui/list-chart/line-chart/line-chart.component';
+
 
 @Component({
   selector: 'app-list-chart',

@@ -1,6 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ListChartComponent } from "./common-ui/list-chart/list-chart.component";
+import { ListChartComponent } from './page/list-chart/list-chart.component';
 
 @Component({
   selector: 'app-root',

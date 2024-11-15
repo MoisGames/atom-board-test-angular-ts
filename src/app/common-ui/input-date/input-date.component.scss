@@ -1,0 +1,37 @@
+@import "../../../variables";
+
+.input-date__wrapper {
+    @extend %center-flex-column;
+    padding-top: 20px;
+    color: white;
+    gap: 10px;
+
+    .input-date__change_wrapper {
+        @extend %center-flex-column;
+        gap: 10px;
+        
+        .button-wrapper {
+            @extend %flex-row;
+            align-items: center;
+            gap: 20px;
+
+            .input-date__button {
+                background-color: $color-grey-background-chart;
+                border-radius: 20px;
+                width: 100px;
+                padding: 5px;
+                color: white;
+            }
+        }
+
+        .input-date__input {
+            width: 100%;  /* Ширина 100% контейнера */
+    padding: 10px; /* Паддинг для внутреннего отступа */
+    border: 2px solid #ff0000; /* Цвет границы */
+    border-radius: 5px; /* Скругление углов */
+    background-color: rgb(26, 255, 0); /* Цвет фона */
+    color: #333; /* Цвет текста */
+    font-size: 16px; /* Размер шрифта */
+        }
+    }
+}

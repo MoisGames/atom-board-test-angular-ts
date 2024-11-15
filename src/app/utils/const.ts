@@ -1,1 +1,1 @@
-export const secPerDay = 86400000
+export const SEC_PER_DAY = 86400000
