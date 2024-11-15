@@ -13,7 +13,7 @@ export class InputDateComponent {
     @Input() maxValue: string = '11.11.2024'
     @Output() currentRangeEvent = new EventEmitter<number>()
     @Output() currentDateEvent = new EventEmitter<Date | null>()
-
+    @Input() show = true
     
 
     setCurrentRange(num:number) {

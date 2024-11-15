@@ -1,12 +1,8 @@
-interface objectSales {
+export interface ElectronicSales {
     date: string,
     Vikidokart: number,
     Telefony: number,
     Televizory: number,
     Noutbuki: number,
-    Klaviatury: number
-}
-
-export interface ElectronicSales {
-    sales_data:Array<objectSales>
+    Klaviatury: number,
 }

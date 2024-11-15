@@ -6,5 +6,10 @@
         [options]="pieChartOptions"
     >
     </canvas>
-    <app-input-date />
+    <app-input-date
+    [show]="false"
+    (currentDateEvent)="setCurrentDate($event)"
+    [minValue]="minDate"
+    [maxValue]="maxDate"
+    />
 </article>

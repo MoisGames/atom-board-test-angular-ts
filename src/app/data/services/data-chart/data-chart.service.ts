@@ -9,7 +9,8 @@ import { ElectronicSales } from '../interfaces/electronic_sales.interface';
 })
 export class DataChartService {
     private tempLineChartData: Array<TempLine> = tempLineData
-    private salesPieChartData: ElectronicSales = electronic_sales
+    private salesPieChartData: Array<ElectronicSales> = electronic_sales
+
     constructor () {
       
     }

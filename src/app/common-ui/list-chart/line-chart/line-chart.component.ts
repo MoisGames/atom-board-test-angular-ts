@@ -32,7 +32,7 @@ export class LineChartComponent {
     this.dataServices = this.dataService
       .getTempLineChartData() ?? []; // Получаем из фейкового сервиса данные
     
-    this.getData()
+      this.getData()
   }
 
   public getData ():void {

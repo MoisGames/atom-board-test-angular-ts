@@ -1,5 +1,4 @@
-{
-  "sales_data": [
+[
     {
       "date": "2023-01-01",
       "Vikidokart": 72,
@@ -2921,4 +2920,3 @@
       "Klaviatury": 29
     }
   ]
-}

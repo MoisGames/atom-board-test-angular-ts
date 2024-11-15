@@ -8,7 +8,8 @@
             (change)="setCurrentDate(inputDate.valueAsDate)"
         >
     </div>
-    <div class="input-date__change_wrapper">
+    @if(show) {
+        <div class="input-date__change_wrapper">
         <span>Показывать за:</span>
         <div class="button-wrapper">
             <button 
@@ -27,5 +28,5 @@
             >Месяц
             </button>
         </div>
-    </div>
+    </div>}
 </article>
