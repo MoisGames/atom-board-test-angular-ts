@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { TempLine } from '../../../data/services/interfaces/temp-line.interface';
 import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
@@ -7,7 +7,8 @@ import { InputDateComponent } from "../../input-date/input-date.component";
 import dateFormat from 'dateformat';
 import { SEC_PER_DAY } from '../../../utils/const';
 import { draw } from 'patternomaly';
-import { FormattedDataService } from '../../../data/services/formatted-data/formatted-data.service';
+import { FormattedDataService } 
+  from '../../../data/services/formatted-data/formatted-data.service';
 @Component({
   selector: 'app-line-chart',
   standalone: true,
@@ -26,6 +27,7 @@ export class LineChartComponent {
   initialDate: string = '2024-10-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '' // Полученная дата
 
+  // @Output() sendDateEvent = new EventEmitter<string | null>()
 
   constructor() {
     Chart.defaults.color = 'white';
@@ -83,6 +85,15 @@ export class LineChartComponent {
         }).reverse()
     }
   }
+
+  // public sendDate ():void {
+  //   if (localStorage.getItem('lineChartDate')) {
+  //     this.sendDateEvent.emit(this.receivedDate)
+  //   } else {
+  //     console.log('Введеной даты нет');
+      
+  //   }
+  // }
 
   public lineChartData: ChartConfiguration<'line'>['data']= {
       labels: ['date1','date2','date3','date4','date5'],
