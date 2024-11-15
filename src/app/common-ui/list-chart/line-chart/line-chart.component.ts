@@ -1,4 +1,4 @@
-import { ChangeDetectorRef, Component, inject } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { TempLine } from '../../../data/services/interfaces/temp-line.interface';
 import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
@@ -22,11 +22,9 @@ export class LineChartComponent {
   formattedService = inject(FormattedDataService) // Сервис обработки даты
   minDate: string = "2023-11-12" // Минимальная дата в данных
   maxDate: string = "2024-11-12" // Максимальная дата
-  currentRange: number = 1 // Выбор диапазона
+  days: number = 1 // Выбор диапазона
   initialDate: string = '2024-10-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '' // Полученная дата
-  currentLabel: Array<string> = []
-  currentData: Array<string> = []
 
 
   constructor() {
@@ -34,15 +32,16 @@ export class LineChartComponent {
     this.dataServices = this.dataService
       .getTempLineChartData() ?? []; // Получаем из фейкового сервиса данные
     
-    this.getFirstData()
+    this.getData()
   }
 
-  public getFirstData ():void { // Рассчитать данные для графика в первый раз
-    if (localStorage.getItem('lineChartDate') === null) {
+  public getData ():void {
+    if (localStorage.getItem('lineChartDate') === null) { // Если хранилище пусто
       this.receivedDate = this.initialDate
 
       const filteredArray = this.dataServices.filter(el => {
-        return this.formattedService.formattedDate(el.dateTime) === this.receivedDate
+        return this.formattedService
+          .formattedDate(el.dateTime) === this.receivedDate
       })
 
       this.lineChartData.datasets[0].data = filteredArray.map(el => {
@@ -53,19 +52,34 @@ export class LineChartComponent {
           return el.dateTime
     })
      
-    } else if (localStorage.getItem('lineChartDate')) {
+    } else if (localStorage.getItem('lineChartDate')) { // Если в хранилище есть дата
       this.receivedDate = localStorage.getItem('lineChartDate')
         const filteredArray = this.dataServices.filter(el => {
-          return this.formattedService.formattedDate(el.dateTime) === this.receivedDate
+          const dateFromArray = new Date(this.formattedService // Мс в дне по которому ищем
+            .formattedDate(el.dateTime)).getTime()
+          let currentDay:number // Мс в выбранном дне
+          
+          if (this.receivedDate !== null) {
+            currentDay = new Date(this.receivedDate).getTime();
+          } else {
+            currentDay = 0
+          }
+          const lastDay = currentDay + (this.days * secPerDay) // Мс в последнем дне
+          
+          if(dateFromArray >= currentDay && dateFromArray <= lastDay ) {
+            return true
+          } else {
+            return false
+          }
         })
 
         this.lineChartData.datasets[0].data = filteredArray.map(el => {
           return el.Temp
-        })
+        }).reverse()
     
           this.lineChartData.labels = filteredArray.map(el => {
               return el.dateTime
-        })
+        }).reverse()
     }
   }
 
@@ -93,15 +107,16 @@ export class LineChartComponent {
     }
   };
 
-  setCurrentRange(data:number) { // Получаем диапазон показа
-      this.currentRange = data
+  setCurrentRange(data:number) { // Получаем кол-во дней
+      this.days = data
+      this.getData()
   }
   setCurrentDate(date:Date | null) { // Получаем дату из инпута
     if (date) {
       this.receivedDate = (dateFormat(date, "UTC:yyyy-mm-dd"));
       localStorage.setItem('lineChartDate',
         this.receivedDate) // Помещаем в local storage выбранную дату
-        this.getFirstData()
+        this.getData()
     } else {
       console.log("Дата не задана.");
     }
