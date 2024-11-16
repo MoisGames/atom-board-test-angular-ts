@@ -1,0 +1,16 @@
+<article class="bar-chart__wrapper">
+    <canvas class="bar-chart__graphic" baseChart width="400" height="400"
+        [type]="'bar'"
+        [datasets]="barChartData.datasets"
+        [labels]="barChartData.labels"
+        [options]="barChartOptions"
+    >
+    </canvas>
+    <app-input-date
+    [show]="false"
+    (currentDateEvent)="setCurrentDate($event)"
+    [minValue]="minDate"
+    [maxValue]="maxDate"
+    [receivedDate]="receivedDate"
+    />
+</article>

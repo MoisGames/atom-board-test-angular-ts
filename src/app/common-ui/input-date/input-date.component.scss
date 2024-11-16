@@ -1,0 +1,49 @@
+@import "../../../variables";
+
+.input-date__wrapper {
+    @include center-flex-column;
+    padding-top: 20px;
+    color: white;
+    gap: 10px;
+
+    .input-date__change_wrapper {
+        @include center-flex-column;
+        gap: 10px;
+        
+        .button-wrapper {
+            @include flex-row;
+            align-items: center;
+            gap: 20px;
+
+            .input-date__button {
+                background-color: $color-grey-background-chart;
+                border-radius: 20px;
+                width: 100px;
+                padding: 5px;
+                color: white;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .input-date__wrapper {
+        @include width-mobile;
+
+        .input-date__change_wrapper {
+            gap: 5px;
+            
+            .button-wrapper {
+                align-items: center;
+                gap: 5px;
+    
+                .input-date__button {
+                    width: 75px;
+                    padding: 3px;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

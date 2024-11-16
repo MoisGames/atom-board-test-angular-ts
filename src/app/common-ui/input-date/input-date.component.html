@@ -1,0 +1,34 @@
+<article class="input-date__wrapper">
+    <div class="input-date__input">
+        <input
+            #inputDate
+            type="date" 
+            min={{minValue}} 
+            max={{maxValue}}
+            (change)="setCurrentDate(inputDate.valueAsDate)"
+            value={{receivedDate}}
+            
+        >
+    </div>
+    @if(show) {
+        <div class="input-date__change_wrapper">
+        <span>Показывать за:</span>
+        <div class="button-wrapper">
+            <button 
+                class="input-date__button" 
+                (click)="setCurrentRange(1)"
+            >День
+            </button>
+            <button 
+                class="input-date__button" 
+                (click)="setCurrentRange(7)"
+            >Неделю
+            </button>
+            <button 
+                class="input-date__button" 
+                (click)="setCurrentRange(30)"
+            >Месяц
+            </button>
+        </div>
+    </div>}
+</article>
