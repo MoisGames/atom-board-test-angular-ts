@@ -6,6 +6,7 @@ import { InputDateComponent } from "../../input-date/input-date.component";
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { ElectronicSales } from '../../../data/services/interfaces/electronic_sales.interface';
 import dateFormat from 'dateformat';
+
 @Component({
   selector: 'app-pie-chart',
   standalone: true,
@@ -22,50 +23,48 @@ export class PieChartComponent {
   initialDate: string = '2023-01-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '2023-01-01' // Полученная дата
 
-    constructor () {
-      Chart.defaults.color = 'white';
-      this.dataServices = this.dataService.getSalesElectronics() ?? []
-      this.getData()
+  constructor () {
+    Chart.defaults.color = 'white';
+    this.dataServices = this.dataService.getSalesElectronics() ?? []
+    this.getData()
+  }
+
+  public getData ():void {
+    const newData:Array<number> = []
+    let newLabel:Array<string> = []
+
+    if (localStorage.getItem('pieChartDate') === null) { // Если хранилище пусто
+      this.receivedDate = this.initialDate
+
+      const filteredArray = this.dataServices.filter(el => {
+        return this.receivedDate === el.date
+      })
       
-    }
+      filteredArray.map(el => {
+        newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
+      })
 
-    public getData ():void {
-      const newData:Array<number> = []
-      let newLabel:Array<string> = []
+      newLabel = Object.keys(filteredArray[0]) 
 
-      if (localStorage.getItem('pieChartDate') === null) { // Если хранилище пусто
-        this.receivedDate = this.initialDate
-  
+      this.pieChartData.labels = newLabel.slice(1,6)
+      this.pieChartData.datasets[0].data = newData
+    } else if (localStorage.getItem('pieChartDate')) {
+        this.receivedDate = localStorage.getItem('pieChartDate')
+
         const filteredArray = this.dataServices.filter(el => {
           return this.receivedDate === el.date
         })
         
         filteredArray.map(el => {
-          newData.push(el.Klaviatury,el.Noutbuki,el.Telefony,el.Televizory,el.Vikidokart)
+          newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
         })
 
         newLabel = Object.keys(filteredArray[0]) 
 
         this.pieChartData.labels = newLabel.slice(1,6)
         this.pieChartData.datasets[0].data = newData
-      } else if (localStorage.getItem('pieChartDate')) {
-          this.receivedDate = localStorage.getItem('pieChartDate')
-
-          const filteredArray = this.dataServices.filter(el => {
-            return this.receivedDate === el.date
-          })
-          
-          filteredArray.map(el => {
-            newData.push(el.Klaviatury,el.Noutbuki,el.Telefony,el.Televizory,el.Vikidokart)
-          })
-  
-          newLabel = Object.keys(filteredArray[0]) 
-  
-          this.pieChartData.labels = newLabel.slice(1,6)
-          this.pieChartData.datasets[0].data = newData
-
-      }
     }
+  }
   
   public pieChartData: ChartConfiguration<'pie'>['data']= {
       labels: ['date1','date2','date3','date4','date5'],

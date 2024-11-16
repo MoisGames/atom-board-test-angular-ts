@@ -1,8 +1,8 @@
 export interface ElectronicSales {
     date: string,
-    Vikidokart: number,
-    Telefony: number,
-    Televizory: number,
-    Noutbuki: number,
-    Klaviatury: number,
+    Видеокарты: number,
+    Телефоны: number,
+    Телевизоры: number,
+    Ноутбуки: number,
+    Клавиатуры: number,
 }

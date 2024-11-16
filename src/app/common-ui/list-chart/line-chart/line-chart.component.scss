@@ -1,22 +1,40 @@
 @import '../../../../variables';
 
 .line-chart__wrapper  {
-    @extend %increase-shadow-block-default;
-    @extend %center-flex-column;
+    @include increase-shadow-block-default;
+    @include center-flex-column;
     padding: 30px;
     border-radius: 50px;
     width: 31vw;
 
-    @media screen and (max-width: 900px) {
-        width: 85%;
-    }
-
     &:hover {
-        @extend %increase-shadow-block-hover;
+        @include increase-shadow-block-hover;
     }
 
     .line-chart__temp {
         background-color: $color-grey-background-chart;
         max-height: 60%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .line-chart__wrapper {
+        @include center-flex-column;
+        @include increase-shadow-block-disabled;
+        @include width-mobile;
+        padding: 20px 10px;
+        
+        &:hover {
+            @include increase-shadow-block-hover-disabled;
+        }
+
+        .graphic__wrapper {
+            
+
+            .line-chart__temp {
+                @include center-flex-column;
+
+            }
+        }
     }
 }

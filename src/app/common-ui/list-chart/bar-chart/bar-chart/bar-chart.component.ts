@@ -44,7 +44,7 @@ export class BarChartComponent {
         })
         
         filteredArray.map(el => {
-          newData.push(el.Klaviatury,el.Noutbuki,el.Telefony,el.Televizory,el.Vikidokart)
+          newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
         })
 
         newLabel = Object.keys(filteredArray[0]) 
@@ -60,15 +60,13 @@ export class BarChartComponent {
           })
           
           filteredArray.map(el => {
-            newData.push(el.Klaviatury,el.Noutbuki,el.Telefony,el.Televizory,el.Vikidokart)
+            newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
           })
   
           newLabel = Object.keys(filteredArray[0]) 
-          console.log(newLabel);
           
           this.barChartData.labels = newLabel.slice(1,6)
           this.barChartData.datasets[0].data = newData
-
       }
     }
   

@@ -1,14 +1,26 @@
 @import '../../../variables';
 
 .list-chart__wrapper {
-    @extend %flex-row;
+    @include flex-row;
     width: 100%;
     min-height: 100vh;
     align-items: start;
     justify-content: space-evenly;
     background-color: $color-grey-background;
+
+    .line-chart__item, .pie-chart__item, .bar-chart__item {
+        margin: 75px 20px;
+    }
 }
 
-.line-chart__item, .pie-chart__item, .bar-chart__item {
-    margin: 75px 20px;
+@media screen and (max-width: 1000px) {
+    .list-chart__wrapper {
+        @include center-flex-column;
+        width: 100%;
+        min-height: 70vh;
+
+        .line-chart__item, .pie-chart__item, .bar-chart__item {
+            margin: 20px 0px;
+        }
+    }
 }

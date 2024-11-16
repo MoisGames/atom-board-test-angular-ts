@@ -1,4 +1,6 @@
 <article class="pie-chart__wrapper">
+    <h1 class="pie-chart__title">Продажи электроники</h1>
+    <span class="pie-chart__text">За {{receivedDate}} </span>
     <canvas class="pie-chart__graphic" baseChart width="400" height="400"
         [type]="'pie'"
         [datasets]="pieChartData.datasets"
@@ -7,10 +9,10 @@
     >
     </canvas>
     <app-input-date
-    [show]="false"
-    (currentDateEvent)="setCurrentDate($event)"
-    [minValue]="minDate"
-    [maxValue]="maxDate"
-    [receivedDate]="receivedDate"
+        [show]="false"
+        (currentDateEvent)="setCurrentDate($event)"
+        [minValue]="minDate"
+        [maxValue]="maxDate"
+        [receivedDate]="receivedDate"
     />
 </article>

@@ -1,18 +1,21 @@
-<div class="line-chart__wrapper">
-    <canvas class="line-chart__temp" baseChart width="400" height="400"
-        [type]="'line'"
-        [datasets]="lineChartData.datasets"
-        [labels]="lineChartData.labels"
-        [options]="lineChartOptions"
-        >
-    </canvas>
-    <div>
-        <app-input-date 
-            [minValue]="minDate" 
-            [maxValue]="maxDate"
-            (currentRangeEvent)="setCurrentRange($event)" 
-            (currentDateEvent)="setCurrentDate($event)"
-            [receivedDate]="receivedDate"
-            />
+<article class="line-chart">
+    <div class="line-chart__wrapper">
+        <canvas class="line-chart__temp" baseChart width="400" height="400"
+            [type]="'line'"
+            [datasets]="lineChartData.datasets"
+            [labels]="lineChartData.labels"
+            [options]="lineChartOptions"
+            >
+        </canvas>
+        <div>
+            <app-input-date 
+                [minValue]="minDate" 
+                [maxValue]="maxDate"
+                (currentRangeEvent)="setCurrentRange($event)" 
+                (currentDateEvent)="setCurrentDate($event)"
+                [receivedDate]="receivedDate"
+                />
+        </div>
     </div>
-</div>
+</article>
+

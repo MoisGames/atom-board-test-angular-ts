@@ -27,8 +27,6 @@ export class LineChartComponent {
   initialDate: string = '2024-10-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '' // Полученная дата
 
-  // @Output() sendDateEvent = new EventEmitter<string | null>()
-
   constructor() {
     Chart.defaults.color = 'white';
     this.dataServices = this.dataService
@@ -86,15 +84,6 @@ export class LineChartComponent {
     }
   }
 
-  // public sendDate ():void {
-  //   if (localStorage.getItem('lineChartDate')) {
-  //     this.sendDateEvent.emit(this.receivedDate)
-  //   } else {
-  //     console.log('Введеной даты нет');
-      
-  //   }
-  // }
-
   public lineChartData: ChartConfiguration<'line'>['data']= {
       labels: ['date1','date2','date3','date4','date5'],
       datasets: [
@@ -114,7 +103,6 @@ export class LineChartComponent {
     plugins: {
       title: {
         color: 'white',
-        
       }
     }
   };
