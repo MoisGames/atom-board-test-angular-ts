@@ -22,6 +22,7 @@ export class BarChartComponent {
   maxDate: string = "2023-12-31" // Максимальная дата
   initialDate: string = '2023-01-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '2023-01-01' // Полученная дата
+  labelDate: string | null = '2023-06-06' // Дата для label
 
     constructor () {
       Chart.defaults.color = 'white';
@@ -34,8 +35,9 @@ export class BarChartComponent {
       const newData:Array<number> = []
       let newLabel:Array<string> = []
 
-      if (localStorage.getItem('pieChartDate') === null) { // Если хранилище пусто
+      if (localStorage.getItem('barChartDate') === null) { // Если хранилище пусто
         this.receivedDate = this.initialDate
+        this.barChartData.datasets[0].label = `Продажи электроники за ${this.receivedDate}`
   
         const filteredArray = this.dataServices.filter(el => {
           return this.receivedDate === el.date
@@ -46,11 +48,12 @@ export class BarChartComponent {
         })
 
         newLabel = Object.keys(filteredArray[0]) 
-
-        this.pieChartData.labels = newLabel.slice(1,6)
-        this.pieChartData.datasets[0].data = newData
-      } else if (localStorage.getItem('pieChartDate')) {
-          this.receivedDate = localStorage.getItem('pieChartDate')
+        
+        this.barChartData.labels = newLabel.slice(1,6)
+        this.barChartData.datasets[0].data = newData
+      } else if (localStorage.getItem('barChartDate')) {
+          this.receivedDate = localStorage.getItem('barChartDate')
+          this.barChartData.datasets[0].label = `Продажи электроники за ${this.receivedDate}`
 
           const filteredArray = this.dataServices.filter(el => {
             return this.receivedDate === el.date
@@ -61,18 +64,20 @@ export class BarChartComponent {
           })
   
           newLabel = Object.keys(filteredArray[0]) 
-  
-          this.pieChartData.labels = newLabel.slice(1,6)
-          this.pieChartData.datasets[0].data = newData
+          console.log(newLabel);
+          
+          this.barChartData.labels = newLabel.slice(1,6)
+          this.barChartData.datasets[0].data = newData
 
       }
     }
   
-  public pieChartData: ChartConfiguration<'bar'>['data']= {
+  public barChartData: ChartConfiguration<'bar'>['data']= {
       labels: ['date1','date2','date3','date4','date5'],
       datasets: [
         {
           data: [1,2,5,6,3],
+          label: `Продажи электроники за ${this.receivedDate}`,
           borderColor: 'black',
           backgroundColor: [ 
             draw('line-vertical', '#1f77b4'),
@@ -85,7 +90,7 @@ export class BarChartComponent {
     ],
   };
 
-  public pieChartOptions: ChartOptions<'bar'> = {
+  public barChartOptions: ChartOptions<'bar'> = {
     responsive: true,
     plugins: {
       title: {
@@ -98,7 +103,7 @@ export class BarChartComponent {
   setCurrentDate(date: Date | null) {
     if (date) {
       this.receivedDate = (dateFormat(date, "UTC:yyyy-mm-dd"));
-      localStorage.setItem('pieChartDate',
+      localStorage.setItem('barChartDate',
         this.receivedDate) // Помещаем в local storage выбранную дату
         this.getData()
     } else {
