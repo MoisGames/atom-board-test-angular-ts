@@ -1,11 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
-import { ElectronicSales } from '../../../../data/services/interfaces/electronic_sales.interface';
-import { DataChartService } from '../../../../data/services/data-chart/data-chart.service';
+import { ElectronicSales } from '../../../data/services/interfaces/electronic_sales.interface';
+import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { draw } from 'patternomaly';
 import dateFormat from 'dateformat';
 import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
-import { InputDateComponent } from '../../../input-date/input-date.component';
+import { InputDateComponent } from '../../input-date/input-date.component';
 
 @Component({
   selector: 'app-bar-chart',
@@ -31,14 +31,30 @@ export class BarChartComponent {
       
     }
 
-    public getData ():void {
-      const newData:Array<number> = []
-      let newLabel:Array<string> = []
+  public getData ():void {
+    const newData:Array<number> = []
+    let newLabel:Array<string> = []
 
-      if (localStorage.getItem('barChartDate') === null) { // Если хранилище пусто
-        this.receivedDate = this.initialDate
+    if (localStorage.getItem('barChartDate') === null) { // Если хранилище пусто
+      this.receivedDate = this.initialDate
+      this.barChartData.datasets[0].label = `Продажи электроники за ${this.receivedDate}`
+
+      const filteredArray = this.dataServices.filter(el => {
+        return this.receivedDate === el.date
+      })
+      
+      filteredArray.map(el => {
+        newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
+      })
+
+      newLabel = Object.keys(filteredArray[0]) 
+      
+      this.barChartData.labels = newLabel.slice(1,6)
+      this.barChartData.datasets[0].data = newData
+    } else if (localStorage.getItem('barChartDate')) {
+        this.receivedDate = localStorage.getItem('barChartDate')
         this.barChartData.datasets[0].label = `Продажи электроники за ${this.receivedDate}`
-  
+
         const filteredArray = this.dataServices.filter(el => {
           return this.receivedDate === el.date
         })
@@ -51,24 +67,8 @@ export class BarChartComponent {
         
         this.barChartData.labels = newLabel.slice(1,6)
         this.barChartData.datasets[0].data = newData
-      } else if (localStorage.getItem('barChartDate')) {
-          this.receivedDate = localStorage.getItem('barChartDate')
-          this.barChartData.datasets[0].label = `Продажи электроники за ${this.receivedDate}`
-
-          const filteredArray = this.dataServices.filter(el => {
-            return this.receivedDate === el.date
-          })
-          
-          filteredArray.map(el => {
-            newData.push(el.Клавиатуры,el.Ноутбуки,el.Телефоны,el.Телевизоры,el.Видеокарты)
-          })
-  
-          newLabel = Object.keys(filteredArray[0]) 
-          
-          this.barChartData.labels = newLabel.slice(1,6)
-          this.barChartData.datasets[0].data = newData
-      }
     }
+  }
   
   public barChartData: ChartConfiguration<'bar'>['data']= {
       labels: ['date1','date2','date3','date4','date5'],
