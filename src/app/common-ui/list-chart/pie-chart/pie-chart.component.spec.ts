@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { PieChartComponent } from './pie-chart.component';
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { ElectronicSales } from '../../../data/services/interfaces/electronic_sales.interface';
-import { PieChartComponent } from './pie-chart.component';
 
 const mockData: Array<ElectronicSales> = [
   { date: '2023-01-01', Клавиатуры: 10, Ноутбуки: 5, Телефоны: 15, Телевизоры: 8, Видеокарты: 2 },
@@ -36,8 +36,8 @@ describe('PieChartComponent', () => {
   });
 
   it('should set initial receivedDate to "2023-01-01"', () => {
-    if(localStorage.getItem('barChartDate')) {
-      expect(component.receivedDate).toBe(localStorage.getItem('barChartDate'));
+    if(localStorage.getItem('pieChartDate')) {
+      expect(component.receivedDate).toBe(localStorage.getItem('pieChartDate'));
     } else {
       expect(component.receivedDate).toBe('2023-01-01');
     }
@@ -48,7 +48,11 @@ describe('PieChartComponent', () => {
     component.setCurrentDate(testDate);
 
     expect(component.receivedDate).toBe('2023-06-06'); // Проверяем установленную дату
-    expect(localStorage.getItem('barChartDate')).toBe('2023-06-06'); 
+    expect(localStorage.getItem('pieChartDate')).toBe('2023-06-06'); 
     // Проверяем, что дата сохранена в localStorage
+
+    // Проверяем, что данные обновлены
+    const expectedData = [12, 7, 20, 5, 3];
+    expect(component.pieChartData.datasets[0].data).toEqual(expectedData);
   });
 });
