@@ -5,10 +5,10 @@
     width: 100%;
     min-height: 100vh;
     align-items: start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: $color-grey-background;
 }
 
-.line-chart__item, .pie-chart__item {
-    margin: 75px;
+.line-chart__item, .pie-chart__item, .bar-chart__item {
+    margin: 75px 20px;
 }
