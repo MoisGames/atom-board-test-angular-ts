@@ -1,4 +1,4 @@
-import { Component, EventEmitter, inject, Input, Output } from '@angular/core';
+import { Component, EventEmitter, inject, Input, NgZone, Output, ViewChild } from '@angular/core';
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { TempLine } from '../../../data/services/interfaces/temp-line.interface';
 import { BaseChartDirective, provideCharts, withDefaultRegisterables } from 'ng2-charts';
@@ -26,8 +26,9 @@ export class LineChartComponent {
   days: number = 1 // Выбор диапазона
   initialDate: string = '2024-10-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '' // Полученная дата
+  @ViewChild(BaseChartDirective) chart!: BaseChartDirective; // Ссылка на график
 
-  constructor() {
+  constructor(private ngZone: NgZone) {
     Chart.defaults.color = 'white';
     this.dataServices = this.dataService
       .getTempLineChartData() ?? []; // Получаем из фейкового сервиса данные
@@ -68,19 +69,25 @@ export class LineChartComponent {
           
           if(dateFromArray >= currentDay && dateFromArray <= lastDay ) {
             return true 
-          // Если выбранная дата соответствует тогда вернем массив и запишем его в график
+          
           } else {
             return false
           }
         })
 
-        this.lineChartData.datasets[0].data = filteredArray.map(el => {
-          return el.Temp
-        }).reverse()
-    
-          this.lineChartData.labels = filteredArray.map(el => {
-              return el.dateTime
-        }).reverse()
+        this.ngZone.run(() => {
+
+          this.lineChartData.datasets[0].data = filteredArray.map(el => {
+            return el.Temp
+          }).reverse()
+      
+            this.lineChartData.labels = filteredArray.map(el => {
+            return el.dateTime
+          }).reverse()
+  
+          if (this.chart && this.chart.chart) {
+            this.chart.chart.update();
+          }})
     }
   }
 

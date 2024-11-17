@@ -1,0 +1,17 @@
+<article class="bubble-chart__wrapper">
+    <h1 class="bubble-chart__title">Продажи, доход и размер компаний</h1>
+    <span class="bubble-chart__text">За {{receivedDate}} </span>
+    <canvas class="bubble-chart__graphic" baseChart width="400" height="400"
+        [type]="'bubble'"
+        [datasets]="bubbleChartData.datasets"
+        [options]="bubbleChartOptions"
+    >
+    </canvas>
+    <app-input-date
+        [show]="false"
+        (currentDateEvent)="setCurrentDate($event)"
+        [minValue]="minDate"
+        [maxValue]="maxDate"
+        [receivedDate]="receivedDate"
+    />
+</article>

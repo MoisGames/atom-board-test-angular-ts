@@ -1,10 +1,10 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, NgZone, ViewChild } from '@angular/core';
 import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
 import { BaseChartDirective,provideCharts, withDefaultRegisterables } from 'ng2-charts';
 import { draw } from 'patternomaly';
 import { InputDateComponent } from "../../input-date/input-date.component";
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
-import { ElectronicSales } from '../../../data/services/interfaces/electronic_sales.interface';
+import { ElectronicSales } from '../../../data/services/interfaces/electronic-sales.interface';
 import dateFormat from 'dateformat';
 
 @Component({
@@ -22,8 +22,9 @@ export class PieChartComponent {
   maxDate: string = "2023-12-31" // Максимальная дата
   initialDate: string = '2023-01-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '2023-01-01' // Полученная дата
+  @ViewChild(BaseChartDirective) chart!: BaseChartDirective; // Ссылка на график
 
-  constructor () {
+  constructor (private ngZone: NgZone) {
     Chart.defaults.color = 'white';
     this.dataServices = this.dataService.getSalesElectronics() ?? []
     this.getData()
@@ -61,9 +62,14 @@ export class PieChartComponent {
 
         newLabel = Object.keys(filteredArray[0]) 
 
-        this.pieChartData.labels = newLabel.slice(1,6)
-        this.pieChartData.datasets[0].data = newData
-    }
+        this.ngZone.run(() => {
+          this.pieChartData.labels = newLabel.slice(1,6)
+          this.pieChartData.datasets[0].data = newData
+  
+          if (this.chart && this.chart.chart) {
+            this.chart.chart.update();
+          }
+    })}
   }
   
   public pieChartData: ChartConfiguration<'pie'>['data']= {

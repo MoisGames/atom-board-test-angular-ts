@@ -1,0 +1,21 @@
+@import '../variables';
+
+.main {
+    @include flex-row;
+    width: 100%;
+    min-height: 150vh;
+    background-color: $color-grey-background;
+}
+
+@media screen and (max-width: 1100px) {
+    .main {
+        @include center-flex-column;
+    }
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+    .main {
+        @include center-flex-column;
+        @include surface-duo;
+    }
+}

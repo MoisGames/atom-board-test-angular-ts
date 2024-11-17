@@ -1,6 +1,6 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, NgZone, ViewChild } from '@angular/core';
 import { Chart, ChartConfiguration, ChartOptions } from 'chart.js';
-import { ElectronicSales } from '../../../data/services/interfaces/electronic_sales.interface';
+import { ElectronicSales } from '../../../data/services/interfaces/electronic-sales.interface';
 import { DataChartService } from '../../../data/services/data-chart/data-chart.service';
 import { draw } from 'patternomaly';
 import dateFormat from 'dateformat';
@@ -23,8 +23,9 @@ export class BarChartComponent {
   initialDate: string = '2023-01-01' // Дефолтная дата при загрузке
   receivedDate: string | null = '2023-01-01' // Полученная дата
   labelDate: string | null = '2023-06-06' // Дата для label
+  @ViewChild(BaseChartDirective) chart!: BaseChartDirective; // Ссылка на график
 
-    constructor () {
+    constructor (private ngZone: NgZone) {
       Chart.defaults.color = 'white';
       this.dataServices = this.dataService.getSalesElectronics() ?? []
       this.getData()
@@ -64,9 +65,15 @@ export class BarChartComponent {
         })
 
         newLabel = Object.keys(filteredArray[0]) 
-        
-        this.barChartData.labels = newLabel.slice(1,6)
-        this.barChartData.datasets[0].data = newData
+
+        this.ngZone.run(() => {
+          this.barChartData.labels = newLabel.slice(1,6)
+          this.barChartData.datasets[0].data = newData
+  
+          if (this.chart && this.chart.chart) {
+            this.chart.chart.update();
+          }
+      })
     }
   }
   

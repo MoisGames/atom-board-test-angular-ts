@@ -8,19 +8,33 @@
     justify-content: space-evenly;
     background-color: $color-grey-background;
 
-    .line-chart__item, .pie-chart__item, .bar-chart__item {
+    .line-chart__item, 
+    .pie-chart__item, 
+    .bar-chart__item, 
+    .radar-chart__item, 
+    .bubble-chart__item {
         margin: 75px 20px;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
     .list-chart__wrapper {
         @include center-flex-column;
         width: 100%;
-        min-height: 70vh;
+        min-height: 150vh;
 
-        .line-chart__item, .pie-chart__item, .bar-chart__item {
+        .line-chart__item, 
+        .pie-chart__item, 
+        .bar-chart__item, 
+        .radar-chart__item, 
+        .bubble-chart__item {
             margin: 20px 0px;
         }
+    }
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+    .list-chart__wrapper {
+        @include surface-duo;
     }
 }

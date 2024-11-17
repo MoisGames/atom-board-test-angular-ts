@@ -49,3 +49,14 @@ $color-grey-background: #262a2d;
     margin: 0;
     width: 90vw; 
 }
+
+@mixin center-text {
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+@mixin surface-duo {
+    margin: 0;
+    width: 540px;
+    min-height: 720px;
+}

@@ -1,0 +1,18 @@
+<article class="radar-chart__wrapper">
+    <h1 class="radar-chart__title">Игровая статистика</h1>
+    <span class="radar-chart__text">За {{receivedDate}} </span>
+    <canvas class="radar-chart__graphic" baseChart width="400" height="400"
+        [type]="'radar'"
+        [datasets]="radarChartData.datasets"
+        [labels]="radarChartData.labels"
+        [options]="radarChartOptions"
+    >
+    </canvas>
+    <app-input-date
+        [show]="false"
+        (currentDateEvent)="setCurrentDate($event)"
+        [minValue]="minDate"
+        [maxValue]="maxDate"
+        [receivedDate]="receivedDate"
+    />
+</article>
