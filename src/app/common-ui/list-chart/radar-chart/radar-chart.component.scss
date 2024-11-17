@@ -7,6 +7,7 @@
     border-radius: 50px;
     padding: 20px;
     width: 25vw;
+
     &:hover {
         @include increase-shadow-block-hover;
     }
@@ -21,7 +22,7 @@
         @include center-flex-column;
         @include increase-shadow-block-disabled;
         @include width-mobile;
-        height: 80vh;
+        min-height: 70vh;
 
         &:hover {
             @include increase-shadow-block-hover-disabled;

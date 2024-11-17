@@ -23,7 +23,7 @@
         @include increase-shadow-block-disabled;
         @include width-mobile;
         padding: 20px 10px;
-        
+
         &:hover {
             @include increase-shadow-block-hover-disabled;
         }
@@ -33,6 +33,7 @@
 
             .line-chart__temp {
                 @include center-flex-column;
+                max-width: 80vw;
 
             }
         }

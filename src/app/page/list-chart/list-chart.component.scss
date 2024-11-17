@@ -5,7 +5,7 @@
     width: 100%;
     min-height: 100vh;
     align-items: start;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: $color-grey-background;
 
     .line-chart__item, 
@@ -27,7 +27,8 @@
         .pie-chart__item, 
         .bar-chart__item, 
         .radar-chart__item, 
-        .bubble-chart__item {
+        .bubble-chart__item,
+        .doughnut-chart__item {
             margin: 20px 0px;
         }
     }
